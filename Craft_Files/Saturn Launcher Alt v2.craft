@@ -1,0 +1,2196 @@
+ship = Saturn Launcher Alt v2
+version = 1.5.1
+description = 
+type = VAB
+size = 28.0064526,128,25.039999
+steamPublishedFileId = 0
+persistentId = 1543747019
+rot = 0,0,0,0
+missionFlag = Squad/Flags/NASA
+vesselType = Debris
+PART
+{
+	part = SaturnMobileLauncherNew2C_4290457894
+	partName = Part
+	persistentId = 1493388377
+	pos = -5.45484829,4.88180304,0
+	attPos = -5.45484829,-10.1181965,0
+	attPos0 = 0,15,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 1
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = SaturnTowerBaseNewCombo_4288382336
+	link = SaturnTowerHoldArm2General_4285429242
+	link = SaturnTowerHoldArm2General_4285428598
+	link = SaturnTowerHoldArm2General_4285428490
+	link = SaturnTowerHoldArm2General_4285428382
+	attN = top02,SaturnTowerBaseNewCombo_4288382336_14|1.98|0
+	attN = acc05,SaturnTowerHoldArm2General_4285428598_2.828427|1.98|2.828427
+	attN = acc06,SaturnTowerHoldArm2General_4285429242_-2.828427|1.98|2.828427
+	attN = acc07,SaturnTowerHoldArm2General_4285428490_2.828427|1.98|-2.828428
+	attN = acc08,SaturnTowerHoldArm2General_4285428382_-2.828427|1.98|-2.828428
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+			ActivateAction
+			{
+				actionGroup = None
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = SizeSwitch
+		currentSubtype = Saturn IB
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ShapeSwitch
+		currentSubtype = Rect Short
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = SupportSwitch
+		currentSubtype = 4x90 Ang
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = WidthSwitch
+		currentSubtype = Narrow
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = symmetrySwitch
+		currentSubtype = 4x
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = CenterSwitch
+		currentSubtype = Off
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = TSMSwitch
+		currentSubtype = On
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerBaseNewCombo_4288382336
+	partName = Part
+	persistentId = 1730929215
+	pos = 8.54515171,6.86180305,0
+	attPos = 0,0,0
+	attPos0 = 14,1.98000002,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = SaturnTowerModSection_4285337278
+	attN = top02,SaturnTowerModSection_4285337278_0|7.86|0
+	attN = bottom,SaturnMobileLauncherNew2C_4290457894_0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = baseSwitch
+		currentSubtype = Square
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ElevOneSwitch
+		currentSubtype = Off
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ElevTwoSwitch
+		currentSubtype = Off
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 16
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 16
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerModSection_4285337278
+	partName = Part
+	persistentId = 2751657364
+	pos = 8.54515171,14.7218037,0
+	attPos = 0,0,0
+	attPos0 = 0,7.86000013,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = SaturnTowerModSectionTop_4285335204
+	link = SaturnTowerArmNew_4285334570
+	link = SaturnTowerArmNew_4285329466
+	link = SaturnTowerArmNew_4285324778
+	link = SaturnTowerArmNew_4285320090
+	attN = top07,SaturnTowerModSectionTop_4285335204_0|27.3|0
+	attN = bottom,SaturnTowerBaseNewCombo_4288382336_0|0|0
+	attN = connect01,SaturnTowerArmNew_4285334570_-3.91|3.9|-2.95
+	attN = connect02,SaturnTowerArmNew_4285329466_-3.91|7.8|-2.95
+	attN = connect04,SaturnTowerArmNew_4285324778_-3.91|15.6|-2.95
+	attN = connect05,SaturnTowerArmNew_4285320090_-3.91|19.5|-2.95
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = heightSwitch
+		currentSubtype = 7X
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerModSectionTop_4285335204
+	partName = Part
+	persistentId = 3428698935
+	pos = 8.54515171,42.021801,0
+	attPos = 0,0,0
+	attPos0 = 0,27.2999992,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = SaturnCraneNew_4285334988
+	attN = top,SaturnCraneNew_4285334988_0|4.315|0
+	attN = bottom,SaturnTowerModSection_4285337278_0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnCraneNew_4285334988
+	partName = Part
+	persistentId = 2577452648
+	pos = 8.54515171,46.5368004,0
+	attPos = 0,0,0
+	attPos0 = 0,4.51499939,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = SaturnLightningMastNew_4285334714
+	attN = bottom,SaturnTowerModSectionTop_4285335204_0|-0.2|0
+	attN = top,SaturnLightningMastNew_4285334714_-0.95|2.82|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		hibernation = False
+		hibernateOnWarp = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MakeReferenceToggle
+			{
+				actionGroup = None
+			}
+			HibernateToggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+			}
+			Activate
+			{
+				actionGroup = None
+			}
+			Deactivate
+			{
+				actionGroup = None
+			}
+			Toggle
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 8
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 16
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = meshSwitch
+		currentSubtype = Off
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 10000
+		maxAmount = 10000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = SaturnLightningMastNew_4285334714
+	partName = Part
+	persistentId = 2296377983
+	pos = 8.54515171,49.5867996,0
+	attPos = 0,0,0
+	attPos0 = 0,3.04999924,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,SaturnCraneNew_4285334988_-0.95|-0.23|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = meshSwitch
+		currentSubtype = LUT Crane
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerArmNew_4285334570
+	partName = Part
+	persistentId = 4000339500
+	pos = 3.92515182,18.6218033,-2.95000005
+	attPos = 0,0,0
+	attPos0 = -4.61999989,3.9000001,-2.95000005
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 2
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect01,SaturnTowerModSection_4285337278_0.71|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ArmSwitch
+		currentSubtype = 2.5m
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = UmbSwitch
+		currentSubtype = Type 7
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerHoldArm2General_4285429242
+	partName = Part
+	persistentId = 4060642899
+	pos = -8.2903471,7.84180307,2.83549833
+	attPos = 0,0,0
+	attPos0 = -2.83549881,2.96000004,2.83549833
+	rot = 0,0.382683456,0,0.923879504
+	attRot = 0,0.382683516,0,0.923879623
+	attRot0 = 0,0.382683456,0,0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = SaturnTowerHoldArm2General_4285428598
+	sym = SaturnTowerHoldArm2General_4285428490
+	sym = SaturnTowerHoldArm2General_4285428382
+	attN = bottom,SaturnMobileLauncherNew2C_4290457894_0.01|-0.98|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerHoldArm2General_4285428598
+	partName = Part
+	persistentId = 1985481038
+	pos = -2.61935019,7.84180307,2.83549833
+	attPos = 0,0,0
+	attPos0 = 2.83549809,2.96000004,2.83549833
+	rot = 0,0.923879564,0,0.382683426
+	attRot = 0,0.382683516,0,0.923879623
+	attRot0 = 0,0.923879564,0,0.382683426
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = SaturnTowerHoldArm2General_4285429242
+	sym = SaturnTowerHoldArm2General_4285428490
+	sym = SaturnTowerHoldArm2General_4285428382
+	attN = bottom,SaturnMobileLauncherNew2C_4290457894_0.01|-0.98|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerHoldArm2General_4285428490
+	partName = Part
+	persistentId = 2958580718
+	pos = -2.61935019,7.84180307,-2.83549881
+	attPos = 0,0,0
+	attPos0 = 2.83549809,2.96000004,-2.83549881
+	rot = 0,0.923879504,0,-0.382683486
+	attRot = 0,0.382683516,0,0.923879623
+	attRot0 = 0,0.923879504,0,-0.382683486
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = SaturnTowerHoldArm2General_4285429242
+	sym = SaturnTowerHoldArm2General_4285428598
+	sym = SaturnTowerHoldArm2General_4285428382
+	attN = bottom,SaturnMobileLauncherNew2C_4290457894_0.01|-0.98|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerHoldArm2General_4285428382
+	partName = Part
+	persistentId = 792026331
+	pos = -8.2903471,7.84180307,-2.83549881
+	attPos = 0,0,0
+	attPos0 = -2.83549881,2.96000004,-2.83549881
+	rot = 0,0.382683426,0,-0.923879564
+	attRot = 0,0.382683516,0,0.923879623
+	attRot0 = 0,0.382683426,0,-0.923879564
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = SaturnTowerHoldArm2General_4285429242
+	sym = SaturnTowerHoldArm2General_4285428598
+	sym = SaturnTowerHoldArm2General_4285428490
+	attN = bottom,SaturnMobileLauncherNew2C_4290457894_0.01|-0.98|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerArmNew_4285329466
+	partName = Part
+	persistentId = 1848249220
+	pos = 3.92515182,22.5218029,-2.95000005
+	attPos = 0,0,0
+	attPos0 = -4.61999989,7.79999971,-2.95000005
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 3
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect01,SaturnTowerModSection_4285337278_0.71|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ArmSwitch
+		currentSubtype = 2.5m
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = UmbSwitch
+		currentSubtype = Type 4
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerArmNew_4285324778
+	partName = Part
+	persistentId = 241673247
+	pos = 3.92515182,30.321804,-2.95000005
+	attPos = 0,0,0
+	attPos0 = -4.61999989,15.6000004,-2.95000005
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 4
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect01,SaturnTowerModSection_4285337278_0.71|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ArmSwitch
+		currentSubtype = 2.5m
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = UmbSwitch
+		currentSubtype = Type 3
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = SaturnTowerArmNew_4285320090
+	partName = Part
+	persistentId = 3586802167
+	pos = 3.92515182,34.2218018,-2.95000005
+	attPos = 0,0,0
+	attPos0 = -4.61999989,19.4999981,-2.95000005
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 5
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect01,SaturnTowerModSection_4285337278_0.71|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = ArmSwitch
+		currentSubtype = 2.5m
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = UmbSwitch
+		currentSubtype = Type 2
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
