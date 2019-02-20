@@ -2,7 +2,7 @@ ship = Delta II 7320 MLP
 version = 1.6.1
 description = 
 type = VAB
-size = 9.08587837,33.8325195,2.69978762
+size = 9.68354988,33.8325195,2.56958389
 steamPublishedFileId = 0
 persistentId = 1753839824
 rot = 0,0,0,0
@@ -2241,7 +2241,7 @@ PART
 	part = bluedog.Delta.GEM40_4294211898
 	partName = Part
 	persistentId = 4198334223
-	pos = 0.0466399677,9.24227333,1.09922779
+	pos = 0.0466399677,9.24227333,1.09922826
 	attPos = -0.0472375453,0,0
 	attPos0 = -0.284794629,-0.210089684,0.00624187943
 	rot = 0,1.1920929E-07,0,1.00000012
@@ -2450,7 +2450,7 @@ PART
 	part = bluedog.Delta.GEM40_4294205410
 	partName = Part
 	persistentId = 628322065
-	pos = 0.987230182,9.24227333,-0.551544785
+	pos = 0.987230599,9.24227333,-0.551544964
 	attPos = -0.0472375453,0,0
 	attPos0 = -0.284794748,-0.210089684,0.00624187617
 	rot = 0,0.866025507,0,0.49999997
@@ -5244,9 +5244,9 @@ PART
 	pos = 6.54039812,5.65722656,0.00231658854
 	attPos = 0,0,0
 	attPos0 = 6.5,6.35000038,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	rot = 0,1,0,0
+	attRot = 0,0.99999994,0,0
+	attRot0 = 0,1,0,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -5261,7 +5261,9 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
+	link = GenUmbDrop_4292214730
 	attN = bottom,GeneralPadLarge_4292606704_0|0|0
+	attN = DII05C,GenUmbDrop_4292214730_0.775133|19.8333|0
 	EVENTS
 	{
 	}
@@ -5300,6 +5302,210 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PropagateCopyEvents
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = GenUmbDrop_4292214730
+	partName = Part
+	persistentId = 3506178664
+	pos = 5.52047253,25.4905262,0.00231658854
+	attPos = 0,0,0
+	attPos0 = 1.01992464,19.8332996,0
+	rot = 0,1,0,0
+	attRot = 0,0.99999994,0,0
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 6
+	resPri = 0
+	dstg = 2
+	sidx = 2
+	sqor = 6
+	sepI = 6
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect,SpecTowerDeltaII_4292586590_-0.244792|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = umbSwitch
+		currentSubtype = Small
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = pipeSwitch
+		currentSubtype = Dark Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = mountSwitch
+		currentSubtype = Dark Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
 		}
 		UPGRADESAPPLIED
 		{
