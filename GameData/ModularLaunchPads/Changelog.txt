@@ -1,0 +1,127 @@
+Changelog
+
+==================================================================================================
+
+1.0	Initial release
+
+
+1.0.1	Restored missing elevator animation from the angled tower base section
+	Added notes file for using the modular tower with the Bluedog Design Bureau Saturn V and IB.
+
+
+1.1	Added new Russian R-7-style launch stand clamp, an alternate version of the full free-standing Soyuz pad intended for early career mode.
+	New launch stand requires Animated Decouplers, which is included in the .zip
+
+
+1.2	B9 Part Switch texture switching added to the Saturn Tower parts which had red and gray versions; these now only have one part which can be switched between red and gray variants.
+	*** Texture Switching only available with KSP 1.3.1 and 1.4.x versions of B9 Part Switch ***
+
+	All animated Saturn Pad parts (swing arms, hold down arms, tail service masts) can now be staged using Animated Decouplers as well as using the original animation movement.
+
+	*** All the original gray parts are now in a Deprecated folder, they will not appear in any category or tech tree node. At a future update, these parts will be removed.
+
+	The Crew access tower section now has an adjustable floor, done by the deploy limit in the right-click menu. The older alternate walkway part is now deprecated.
+
+	Custom category created for the Modular Launch Pads parts. The tower arms also will not appear in any stock category.
+
+	Some tweaks to the Saturn hold down arms and tail service mast parts and animations.
+
+
+1.2.1	Changed the category for the Saturn tower arms to -1 so they won't actually show up in a stock tab.
+
+
+1.2.2	Added B9PartSwitch v2.3.0 for KSP 1.4.3
+
+	Added Module Manager patch file for FASA to the Patches folder.
+	This adds a size 5 attach node to several meters below the bottom of the first stage tank of the Saturn V, Saturn IB and Titan II, and the main tank for the Atlas and Redstone.  This node is used to attach the pad bases.
+
+
+1.3.0	**Russian Launch Stand**
+	
+	> The Russian Launch Stand no longer uses a separate arm assembly. The clamp arms and one adjustable (by mesh-switching) fuel arm are now built into the stand itself. The fuel arm can be retracted manually. Two additional fuel arms and a separate crew elevator tower can be added as well.
+
+	> Russian Launch Stand's clamp arms can also be turned off, so the big Soyuz Launch Pad's gravity-retract hinges and arms can be used instead.
+
+	> Color can now be switched to the Soyuz Pad's green.
+
+	
+	**Soyuz Launch Pad**
+
+	> The Soyuz Launch Pad base now has switchable hinge-mount configurations, either at 90 or 45 degrees.
+
+	> The clamp arms have adjustable-size clamp pads, done by the deploy limit slider.
+
+	> Extra attach nodes are included on the base for use with the Russian Launch Stand's fuel arms and crew tower, as an interim step until I can make proper ones for the Soyuz Pad.
+
+	> The color for the base's central ring, clamp arms and counterweights can be switched to the gray-drab color of the Russian Stand.
+
+
+	**Saturn Pad**
+
+	> The individual tower swing arms have been eliminated. There are now new switchable Saturn tower swing arms, in four general sizes (for fuel tanks of 1.875m, 2.5m, 3.75m and 5m diameter), each with seven switchable umbilical connector types.  There are also new BDB Saturn V arms with two different size options (for default and rescale sizes).  Eventually the general type arms will vary more from the Saturn V ones they currently use as a base; this is a small step in that direction.
+
+	> The individual flame hole inserts for the base have been eliminated.  They have been replaced by a single square and rectangular switchable insert, both with multiple options.
+
+	> The standard launcher base no longer has attach nodes for accessories like SRB hold-down arms and tail service masts, these are now in the new switchable inserts.
+
+	> The tower base sections' elevators are now off by default, and have switchable maximum heights when turned on. The deploy limit slider can still be used to fine-adjust the stopping height.
+
+	> The hold-down arms no longer can be retracted manually, retraction is only by staging via Animated Decouplers
+
+	> What was the Type 1 and Type 2 hold down arms have been revised and renamed the Saturn V and Saturn IB Type B hold-down arm. The other hold-down arms have been renamed General Type [x].
+
+	> Two new hold arms have been added, a bottom-mount type and another one designed for the Saturn IB, the Type A.
+
+	> New Saturn Milkstool with an integrated insert, i.e. switchable node and hold-down supports.
+
+	> NOTE: Disable staging for any part (like swing arms) that is manually retracted, or move its staging icon into a stage above that of the launcher base, otherwise they will reset if staged.
+
+
+
+	**General**
+
+	> ALL OLD PARTS ARE NO LONGER LOADED BY DEFAULT.  They are in a separate folder called "Old_Parts" that is outside of the Gamedata folder in the .zip file. If they are needed to prevent craft and save files from breaking, copy the "Parts" foder from "Old_Parts" into the ModularLaunchPads folder, and copy the contents of the "3D_Assets" folder from "Old_Parts" into the "3D_Assets" folder in ModularLaunchPads.
+	
+	> Old parts won't appear in any category or the tech tree, they are provided solely to prevent craft and save files breaking so the old parts can be replaced. This is the last time old parts will be included.
+
+	> Saturn tower swing arms are now back in the Structural category.
+
+	> Added v2.3.0 of B9PartSwitch for KSP v1.4.3
+
+	> Added MM patch file for Tundra Exploration, it adds a size 5 node below the bottom of the three first stage tanks for attaching a launch pad.
+
+	> Revised the custom category, old parts were removed, new ones added.
+	
+
+1.3.5	> Created new custom tech tree nodes for the Saturn and Soyuz pads. They are located to the left of the start node and are all independent of each other.
+
+	> Revised all Saturn pad parts that use Animated Decouplers by adding a size 0 attach node that is setup to decouple.  Nothing can be attached to this node.
+
+
+1.3.6   > Added a 6x60 hold-down support configuration to the square insert for the Saturn mobile launcher base.
+
+1.3.7   > Made the dummy nodes unusable for parts using Animated Decouplers by moving them to -1000 on the Y-axis.
+	> Changed the order of the B9PS switchers for the Saturn tower arms so the color one is now last.
+
+1.3.8   > Removed "layer = 0" line from the Saturn pad parts that have both ModuleAnimateGeneric and ModuleAnimated Decoupler.  This was making these parts reset after the animation finished when staged.
+
+2.0.0
+        > Complete remake and expansion of the old v1 Saturn and Soyuz base parts.
+ 	  All parts are completely new have new names.
+
+ 	> Addition of Shuttle Launch Platform and accessories.
+
+	> Addition of General Launch Bases and accessories.
+
+	> Addition of two Launch Stands (Small and Large) and early-career accessories, plus a Small Static Test Stand.
+
+	> Extensive use of mesh switching means fewer parts are loaded.
+
+	> All launch bases are now launch clamps, none are free-standing.
+	  Free-standing versions of the Saturn and Shuttle launch bases are available as separate extras, are not in GameData/ModularLaunchPads.
+
+	> All launch bases now have a fuel generator, outputting LFO, Mono and LH2 (with Community Resource Pack installed).
+
+	> Added Community Category Kit support, complete with a custom icon.
+
+	> Removal of old v1 Russian Launch Stand, it's clamp features have been integrated into the new Soyuz Launch Base.
