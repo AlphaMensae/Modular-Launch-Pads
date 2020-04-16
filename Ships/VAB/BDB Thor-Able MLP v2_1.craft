@@ -2,7 +2,7 @@ ship = BDB Thor-Able MLP v2.1
 version = 1.8.1
 description = 
 type = VAB
-size = 2.58092213,17.266571,2.58092213
+size = 5.21559572,17.451643,2.5809412
 steamPublishedFileId = 0
 persistentId = 2264297830
 rot = 0,0,0,0
@@ -16,8 +16,8 @@ PART
 {
 	part = bluedog.ThorAble.Tank_4294001324
 	partName = Part
-	persistentId = 1262444419
-	pos = -2.17049026,13.0699186,-1.46962702E-06
+	persistentId = 2288834797
+	pos = 0.00206708908,13.1589756,-1.46962702E-06
 	attPos = -9.22874451,0,0
 	attPos0 = -7.89761543E-07,23.9661503,-1.51246786E-06
 	rot = 0,0.707106829,0,0.707106829
@@ -260,8 +260,8 @@ PART
 {
 	part = bluedog.Able.Engine_4294006820
 	partName = Part
-	persistentId = 3972059916
-	pos = -2.17049026,11.6212187,-1.46962702E-06
+	persistentId = 2235117016
+	pos = 0.00206708908,11.7102757,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,-1.44869995,0
 	rot = 0,0.707106829,0,0.707106829
@@ -571,8 +571,8 @@ PART
 {
 	part = bluedog.ThorDelta.Interstage_4294007568
 	partName = Part
-	persistentId = 247419192
-	pos = -2.17049026,11.5140486,-1.46962702E-06
+	persistentId = 3374521638
+	pos = 0.00206708908,11.6031055,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,-1.55587006,0
 	rot = 0,0.707106829,0,0.707106829
@@ -755,8 +755,8 @@ PART
 {
 	part = bluedog.Thor.AbleAdapter_4294013660
 	partName = Part
-	persistentId = 329050771
-	pos = -2.17049026,10.4779081,-1.46962702E-06
+	persistentId = 3444459869
+	pos = 0.00206708908,10.5669651,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,2.13010025,0
 	rot = 0,0.707106829,0,0.707106829
@@ -870,8 +870,8 @@ PART
 {
 	part = bluedog.Thor.1p25mAdapter.Long_4294020698
 	partName = Part
-	persistentId = 4012566533
-	pos = -2.17049026,8.34780788,-1.46962702E-06
+	persistentId = 911964676
+	pos = 0.00206708908,8.43686485,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,3.625,0
 	rot = 0,0.707106829,0,0.707106829
@@ -1024,9 +1024,9 @@ PART
 {
 	part = bluedog.ThorAble.Guidance_4294137142
 	partName = Part
-	persistentId = 4134232474
-	pos = -2.17049026,14.7316084,-1.46962702E-06
-	attPos = 7.0582552,-10.8962355,0
+	persistentId = 4265264898
+	pos = 0.00206708908,14.8206654,-1.46962702E-06
+	attPos = 9.23081207,-10.8071785,0
 	attPos0 = -9.22874546,25.6278439,-1.46962702E-06
 	rot = 0,0.707106829,0,0.707106829
 	attRot = 0,0.707106769,0,0.707106769
@@ -1146,6 +1146,9 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = bluedog_SAS1
+			upgrade = bluedog_SAS2
+			upgrade = bluedog_SAS3
 		}
 	}
 	MODULE
@@ -1219,8 +1222,8 @@ PART
 {
 	part = bluedog.FairingBase.0p625m_4294122124
 	partName = Part
-	persistentId = 3872091924
-	pos = -2.17049026,15.1352987,-1.46962702E-06
+	persistentId = 3586514134
+	pos = 0.00206708908,15.2243557,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,0.403690338,0
 	rot = 0,0.707106829,0,0.707106829
@@ -1644,8 +1647,8 @@ PART
 {
 	part = bluedog.Thor.LowerTank.1_4294107594
 	partName = Part
-	persistentId = 105617287
-	pos = -2.17049026,4.72280788,-1.46962702E-06
+	persistentId = 991698386
+	pos = 0.00206708908,4.81186485,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,-3.625,0
 	rot = 0,0,0,1.00000012
@@ -1832,8 +1835,8 @@ PART
 {
 	part = bluedog.Thor.EngineMount_4294047814
 	partName = Part
-	persistentId = 3733391361
-	pos = -2.17049026,1.46790791,-1.46962702E-06
+	persistentId = 1846386816
+	pos = 0.00206708908,1.55696487,-1.46962702E-06
 	attPos = 0.963386953,0,-1.71336758
 	attPos0 = 0,-3.25489998,0
 	rot = 0,0,0,1.00000012
@@ -1938,8 +1941,8 @@ PART
 {
 	part = bluedog.Thor.LR79_4294087832
 	partName = Part
-	persistentId = 4197081636
-	pos = -2.17049026,1.46937847,-1.46962702E-06
+	persistentId = 441072025
+	pos = 0.00206708908,1.55843544,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0,0.0014705658,0
 	rot = 0,0,0,1.00000012
@@ -2293,8 +2296,8 @@ PART
 {
 	part = bluedog.Thor.LR101_4294046842
 	partName = Part
-	persistentId = 4130436722
-	pos = -1.64648747,0.862908363,-1.46962702E-06
+	persistentId = 1421430922
+	pos = 0.526075363,0.951965332,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = 0.523999989,-0.604999542,0
 	rot = 0,0,0,1.00000012
@@ -2603,8 +2606,8 @@ PART
 {
 	part = bluedog.Thor.LR101_4294046560
 	partName = Part
-	persistentId = 430014546
-	pos = -2.69449306,0.862908363,-1.46962702E-06
+	persistentId = 2656995413
+	pos = -0.521941185,0.951965332,-1.46962702E-06
 	attPos = 0,0,0
 	attPos0 = -0.523999989,-0.604999542,0
 	rot = 0,1.00000012,0,-1.1920929E-07
@@ -2905,8 +2908,8 @@ PART
 {
 	part = bluedog.Delta.Fin_4294046074
 	partName = Part
-	persistentId = 3652700186
-	pos = -2.90779066,1.40667439,-1.41002238E-06
+	persistentId = 2397690949
+	pos = -0.735244215,1.49573135,-1.41002238E-06
 	attPos = 0,-0.0146217346,0
 	attPos0 = -0.737294316,-0.0466117859,4.39461694E-08
 	rot = 0,-1.00000012,0,2.08616257E-07
@@ -2987,8 +2990,8 @@ PART
 {
 	part = bluedog.Delta.Fin_4294045690
 	partName = Part
-	persistentId = 755020810
-	pos = -2.17049026,1.40667439,0.737298429
+	persistentId = 1392474621
+	pos = 0.00206708908,1.49573135,0.737308025
 	attPos = 0,-0.0146217346,0
 	attPos0 = 9.33317864E-16,-0.0466117859,0.737294257
 	rot = 0,-0.707106769,0,0.707107008
@@ -3069,8 +3072,8 @@ PART
 {
 	part = bluedog.Delta.Fin_4294045642
 	partName = Part
-	persistentId = 3571815201
-	pos = -1.43318987,1.40667439,-1.58883631E-06
+	persistentId = 2172430442
+	pos = 0.739378393,1.49573135,-1.58883631E-06
 	attPos = 0,-0.0146217346,0
 	attPos0 = 0.737294316,-0.0466117859,-1.08402489E-07
 	rot = 0,2.38418579E-07,0,1.00000012
@@ -3151,8 +3154,8 @@ PART
 {
 	part = bluedog.Delta.Fin_4294045594
 	partName = Part
-	persistentId = 1936761572
-	pos = -2.17049026,1.40667439,-0.737301409
+	persistentId = 128799695
+	pos = 0.00206708908,1.49573135,-0.737311006
 	attPos = 0,-0.0146217346,0
 	attPos0 = -8.78923316E-08,-0.0466117859,-0.737294257
 	rot = 0,0.707107008,0,0.707106769
@@ -3233,8 +3236,8 @@ PART
 {
 	part = AM.MLP.ThorLaunchStand_4293832198
 	partName = Part
-	persistentId = 4005320141
-	pos = -2.17049026,-0.00203132629,-1.46962702E-06
+	persistentId = 3329418760
+	pos = 0.00206708908,0.0870256424,-1.46962702E-06
 	attPos = 0,0.525090218,0
 	attPos0 = 0,-1.99650002,0
 	rot = 0,0,0,1.00000012
@@ -3255,12 +3258,13 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
+	link = AM.MLP.ThorServiceTowerFallback_4293118600
 	attN = top,bluedog.Thor.LR79_4294087832_0|0.649999976|0_0|1|0_0|0.649999976|0_0|1|0
 	attN = top20,Null_0_3.5|0.300000012|0_0|-1|0_3.5|0.300000012|0_0|-1|0
 	attN = top21,Null_0_-3.5|0.300000012|0_0|-1|0_-3.5|0.300000012|0_0|-1|0
 	attN = top22,Null_0_0|0.300000012|3.5_0|-1|0_0|0.300000012|3.5_0|-1|0
 	attN = top23,Null_0_0|0.300000012|-3.5_0|-1|0_0|0.300000012|-3.5_0|-1|0
-	attN = top30,Null_0_6|0.300000012|0_0|-1|0_6|0.300000012|0_0|-1|0
+	attN = top30,AM.MLP.ThorServiceTowerFallback_4293118600_6|0.300000012|0_0|-1|0_6|0.300000012|0_0|-1|0
 	attN = top31,Null_0_-6|0.300000012|0_0|-1|0_-6|0.300000012|0_0|-1|0
 	attN = top32,Null_0_0|0.300000012|6_0|-1|0_0|0.300000012|6_0|-1|0
 	attN = top33,Null_0_0|0.300000012|-6_0|-1|0_0|0.300000012|-6_0|-1|0
@@ -3289,8 +3293,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.959373653
-		height = 0.0479688644
+		scaleFactor = 2.74050617
+		height = 0.137025833
 		stagingEnabled = True
 		towerRot = 0,0,0,1
 		EVENTS
@@ -3300,7 +3304,7 @@ PART
 		{
 			ReleaseClamp
 			{
-				actionGroup = None
+				actionGroup = Custom01
 			}
 		}
 		UPGRADESAPPLIED
@@ -3428,6 +3432,366 @@ PART
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = AM.MLP.ThorServiceTowerFallback_4293118600
+	partName = Part
+	persistentId = 3775279770
+	pos = 3.18834114,1.22529507,-1.94646418E-06
+	attPos = -2.74374628,-0.360122681,0
+	attPos0 = 5.93000412,1.49839211,-4.76837499E-07
+	rot = 0,0,0,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 3
+	resPri = 0
+	dstg = 2
+	sidx = 1
+	sqor = 3
+	sepI = 3
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,AM.MLP.ThorLaunchStand_4293832198_0.0700000003|-1.19839203|0_0|1|0_0.0700000003|-1.19839203|0_0|1|0
+	attN = bottom02,Null_0_0|-1000|0_0|1|0_0|-1000|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Red & White
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = Custom01
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = umb1Switch
+		currentSubtype = Black
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = umb2Switch
+		currentSubtype = Black
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = CLAMPED
+		animSwitch = True
+		animTime = 0.649999976
+		animSpeed = 0
+		deployPercent = 35
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = CLAMPED
+		animSwitch = True
+		animTime = 0.0800000429
+		animSpeed = 0
+		deployPercent = 92
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = umb3Switch
+		currentSubtype = Gray
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = CLAMPED
+		animSwitch = True
+		animTime = 0.25999999
+		animSpeed = 0
+		deployPercent = 74
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = CLAMPED
+		animSwitch = True
+		animTime = 0.360000014
+		animSpeed = 0
+		deployPercent = 64
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
 		}
 		UPGRADESAPPLIED
 		{
