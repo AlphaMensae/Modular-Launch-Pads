@@ -2,7 +2,7 @@ ship = Ghidorah 9 + Rodan MLP v2.1
 version = 1.8.1
 description = 
 type = VAB
-size = 27.9055882,126.45002,8.20000267
+size = 26.4412537,127.956024,12.1485214
 steamPublishedFileId = 0
 persistentId = 3066828773
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = TE.18.DRAGONV2.POD_4293995308
 	partName = Part
-	persistentId = 150481290
+	persistentId = 309805051
 	pos = 2.19999981,45.3985062,0
 	attPos = 0,0,0
 	attPos0 = 0.0509142876,43.0248032,0.0375614166
@@ -32,7 +32,7 @@ PART
 	dstg = 2
 	sidx = 1
 	sqor = 0
-	sepI = 0
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 302.399994
@@ -494,7 +494,7 @@ PART
 {
 	part = dockingPort2_4293981498
 	partName = Part
-	persistentId = 4091674403
+	persistentId = 2035964868
 	pos = 2.19999981,46.4580078,0
 	attPos = 0,0,0
 	attPos0 = 0,1.05950165,0
@@ -510,7 +510,7 @@ PART
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 1
+	sepI = 2
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -603,7 +603,7 @@ PART
 {
 	part = TE.18.DRAGONV2.HEATSHIELD_4293970696
 	partName = Part
-	persistentId = 759478826
+	persistentId = 2625025352
 	pos = 2.19999981,44.2685089,0
 	attPos = 0,0,0
 	attPos0 = 0,-1.12999725,0
@@ -614,12 +614,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
 	sidx = -1
 	sqor = -1
-	sepI = 0
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -734,7 +734,7 @@ PART
 {
 	part = TE.18.DRAGONV2.TRUNK_4293967312
 	partName = Part
-	persistentId = 16232010
+	persistentId = 3621147609
 	pos = 2.19999981,43.7520409,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.516468048,0
@@ -745,12 +745,12 @@ PART
 	symMethod = Radial
 	autostrutMode = Heaviest
 	rigidAttachment = False
-	istg = 0
+	istg = 1
 	resPri = 0
 	dstg = 2
 	sidx = 2
 	sqor = 0
-	sepI = 0
+	sepI = 1
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0
@@ -783,6 +783,28 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleColorChanger
 		isEnabled = True
 		animState = False
@@ -812,27 +834,6 @@ PART
 		}
 		ACTIONS
 		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleDecouple
-		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DecoupleAction
-			{
-				actionGroup = None
-			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -940,6 +941,38 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = Trunk variantions
+		currentSubtype = Blue Panels
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleColliderHelper
 		isEnabled = True
 		stagingEnabled = True
@@ -969,7 +1002,7 @@ PART
 {
 	part = TE.19.C.Dragon.Decoupler_4293965626
 	partName = Part
-	persistentId = 1378588461
+	persistentId = 3029380442
 	pos = 2.19999981,41.387001,0
 	attPos = 0,0,0
 	attPos0 = 0,-2.36503983,0
@@ -1181,7 +1214,7 @@ PART
 {
 	part = TE.19.F9.S2.Tank_4293961290
 	partName = Part
-	persistentId = 2820410632
+	persistentId = 3382585440
 	pos = 2.19999981,38.2000008,0
 	attPos = 7.03242111,0.030166626,-0.0375454724
 	attPos0 = -4.8324213,38.1698341,0.0375454724
@@ -1320,7 +1353,7 @@ PART
 {
 	part = TE.19.F9.S2.Engine_4293946020
 	partName = Part
-	persistentId = 3903837164
+	persistentId = 449355196
 	pos = 2.19999981,34.4510002,0
 	attPos = 0,0,0
 	attPos0 = 0,-3.74900055,0
@@ -1626,7 +1659,7 @@ PART
 {
 	part = TE.19.F9.S1.Interstage_4293940820
 	partName = Part
-	persistentId = 547508848
+	persistentId = 1050102826
 	pos = 2.19999981,31.3669987,0
 	attPos = 0,0,0
 	attPos0 = 0,-3.08400154,0
@@ -2022,8 +2055,8 @@ PART
 {
 	part = Grid Fin M Titanium_4293928178
 	partName = Part
-	persistentId = 2391102665
-	pos = 3.08372784,31.1782856,-0.883726716
+	persistentId = 2717711917
+	pos = 3.08372951,31.1782856,-0.883728802
 	attPos = 0,0,0
 	attPos0 = -0.883716822,-0.188711166,-0.883716762
 	rot = -0.923879623,5.63583598E-08,0.382683426,-2.33444108E-08
@@ -2229,8 +2262,8 @@ PART
 {
 	part = Grid Fin M Titanium_4293927906
 	partName = Part
-	persistentId = 4192963313
-	pos = 1.31627369,31.1782856,-0.883727252
+	persistentId = 3674815086
+	pos = 1.31627202,31.1782856,-0.883729339
 	attPos = 0,0,0
 	attPos0 = -0.883716762,-0.188711166,0.883716702
 	rot = -0.382683426,2.3344402E-08,0.923879623,-5.63583775E-08
@@ -2436,8 +2469,8 @@ PART
 {
 	part = Grid Fin M Titanium_4293927840
 	partName = Part
-	persistentId = 1695979424
-	pos = 1.31627285,31.1782856,0.883726954
+	persistentId = 3614578981
+	pos = 1.31627083,31.1782856,0.883729041
 	attPos = 0,0,0
 	attPos0 = 0.883716881,-0.188711166,0.883716702
 	rot = 0.382683426,-2.33444108E-08,0.923879623,-5.63583598E-08
@@ -2643,8 +2676,8 @@ PART
 {
 	part = Grid Fin M Titanium_4293927774
 	partName = Part
-	persistentId = 3004594745
-	pos = 3.08372688,31.1782856,0.883727133
+	persistentId = 2997299030
+	pos = 3.08372855,31.1782856,0.883729219
 	attPos = 0,0,0
 	attPos0 = 0.883716643,-0.188711166,-0.883716822
 	rot = 0.923879623,-5.63583775E-08,0.382683426,-2.3344402E-08
@@ -2850,7 +2883,7 @@ PART
 {
 	part = TE.19.F9.S1.Tank_4293916824
 	partName = Part
-	persistentId = 3483035305
+	persistentId = 2073977096
 	pos = 2.19999981,21.8759975,0
 	attPos = 0,0,0
 	attPos0 = 0,-9.49099922,0
@@ -3078,7 +3111,7 @@ PART
 {
 	part = TE.19.F9.S1.Engine_4293904714
 	partName = Part
-	persistentId = 3913410204
+	persistentId = 3873833816
 	pos = 2.19999981,3.68600082,0
 	attPos = 0,0,0
 	attPos0 = 0,-18.1899986,0
@@ -3475,8 +3508,8 @@ PART
 {
 	part = KRE-FalconLeg-M_4293881572
 	partName = Part
-	persistentId = 1590302738
-	pos = 2.9543891,4.10509872,-0.754388332
+	persistentId = 4263368527
+	pos = 2.95439076,4.10509872,-0.754390419
 	attPos = 0,-0.118896484,0
 	attPos0 = 0.754378915,-17.6520042,0.754378796
 	rot = 0,-0.382683426,0,0.923879623
@@ -3671,8 +3704,8 @@ PART
 {
 	part = KRE-FalconLeg-M_4293879970
 	partName = Part
-	persistentId = 3884680796
-	pos = 1.44561124,4.10509872,-0.754388928
+	persistentId = 1560834246
+	pos = 1.44560957,4.10509872,-0.754391015
 	attPos = 0,-0.118896484,0
 	attPos0 = 0.754378796,-17.6520042,-0.754378796
 	rot = 0,0.382683426,0,0.923879623
@@ -3867,8 +3900,8 @@ PART
 {
 	part = KRE-FalconLeg-M_4293879792
 	partName = Part
-	persistentId = 1403862870
-	pos = 1.4456104,4.10509872,0.754388452
+	persistentId = 1775867764
+	pos = 1.44560838,4.10509872,0.754390538
 	attPos = 0,-0.118896484,0
 	attPos0 = -0.754378974,-17.6520042,-0.754378736
 	rot = 0,0.923879623,0,0.382683426
@@ -4063,8 +4096,8 @@ PART
 {
 	part = KRE-FalconLeg-M_4293879614
 	partName = Part
-	persistentId = 981475588
-	pos = 2.95438814,4.10509872,0.754388928
+	persistentId = 1865940795
+	pos = 2.95438981,4.10509872,0.754391015
 	attPos = 0,-0.118896484,0
 	attPos0 = -0.754378676,-17.6520042,0.754378915
 	rot = 0,0.923879623,0,-0.382683426
@@ -4259,8 +4292,8 @@ PART
 {
 	part = HotGasThruster-M_4293264178
 	partName = Part
-	persistentId = 3137613896
-	pos = 3.41152287,31.1465912,4.76837158E-07
+	persistentId = 3820474082
+	pos = 3.4115262,31.1465912,4.76837158E-07
 	attPos = 0,0,0
 	attPos0 = 1.19209318E-07,-0.220407486,-1.21151173
 	rot = -1.73992291E-07,-0.707106769,1.73992262E-07,-0.707106888
@@ -4373,8 +4406,8 @@ PART
 {
 	part = HotGasThruster-M_4293263308
 	partName = Part
-	persistentId = 3283129612
-	pos = 2.20000029,31.1465912,-1.21152198
+	persistentId = 1873772649
+	pos = 2.20000029,31.1465912,-1.21152449
 	attPos = 0,0,0
 	attPos0 = -1.21151161,-0.220407486,-1.19209318E-07
 	rot = -2.84217094E-14,-1.00000012,2.46062399E-07,-1.1920929E-07
@@ -4487,8 +4520,8 @@ PART
 {
 	part = HotGasThruster-M_4293263250
 	partName = Part
-	persistentId = 1341951501
-	pos = 0.988477349,31.1465912,-3.57627869E-07
+	persistentId = 4275163976
+	pos = 0.988474846,31.1465912,-3.57627869E-07
 	attPos = 0,0,0
 	attPos0 = -3.55271436E-14,-0.220407486,1.21151173
 	rot = 1.73992277E-07,-0.707106829,1.73992277E-07,0.707106829
@@ -4601,8 +4634,8 @@ PART
 {
 	part = HotGasThruster-M_4293263192
 	partName = Part
-	persistentId = 3350136383
-	pos = 2.19999933,31.1465912,1.21152198
+	persistentId = 502982823
+	pos = 2.19999933,31.1465912,1.21152449
 	attPos = 0,0,0
 	attPos0 = 1.21151161,-0.220407486,0
 	rot = 2.46062399E-07,-1.1920929E-07,2.84217094E-14,1.00000012
@@ -4715,8 +4748,8 @@ PART
 {
 	part = HotGasThruster-M_4293247356
 	partName = Part
-	persistentId = 1672455024
-	pos = 2.20000029,35.319458,-1.21235621
+	persistentId = 1337058445
+	pos = 2.20000029,35.319458,-1.21235788
 	attPos = 0,0,0
 	attPos0 = -1.2123487,-2.88054276,1.19209318E-07
 	rot = 0,1.00000012,8.65113137E-09,-1.1920929E-07
@@ -4826,8 +4859,8 @@ PART
 {
 	part = HotGasThruster-M_4293246812
 	partName = Part
-	persistentId = 593670571
-	pos = 2.19999933,35.319458,1.21235621
+	persistentId = 1483319561
+	pos = 2.19999933,35.319458,1.21235788
 	attPos = 0,0,0
 	attPos0 = 1.2123487,-2.88054276,-1.19209318E-07
 	rot = 8.65113403E-09,-2.08616257E-07,-8.8817842E-16,-1.00000012
@@ -4937,8 +4970,8 @@ PART
 {
 	part = parachuteRadial_4293936820
 	partName = Part
-	persistentId = 3073972258
-	pos = 2.37037134,46.0281143,-0.635839164
+	persistentId = 1610443220
+	pos = 2.37037134,46.0281143,-0.63584125
 	attPos = -0.0374328941,-0.107326508,0.139701486
 	attPos0 = 0.207803488,0.736934662,-0.775533736
 	rot = -0.166133389,0.128680646,-0.0218718648,-0.977426708
@@ -4953,7 +4986,7 @@ PART
 	dstg = 1
 	sidx = 0
 	sqor = 0
-	sepI = 0
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -5076,8 +5109,8 @@ PART
 {
 	part = parachuteRadial_4293936072
 	partName = Part
-	persistentId = 2097599686
-	pos = 2.02962804,46.0281143,-0.635839045
+	persistentId = 1350566212
+	pos = 2.02962804,46.0281143,-0.635841131
 	attPos = 0.037432909,-0.107326508,0.139701605
 	attPos0 = -0.207803518,0.736934662,-0.775533676
 	rot = -0.166133344,-0.128680557,0.0218718722,-0.977426648
@@ -5092,7 +5125,7 @@ PART
 	dstg = 1
 	sidx = 0
 	sqor = 0
-	sepI = 0
+	sepI = 1
 	attm = 1
 	sameVesselCollision = False
 	modCost = 0
@@ -5215,7 +5248,7 @@ PART
 {
 	part = AM.MLP.GeneralLaunchBaseMedium_4294064426
 	partName = Part
-	persistentId = 3985212353
+	persistentId = 694407166
 	pos = 2.19999981,0.391292572,0
 	attPos = 0,1.14229012,0
 	attPos0 = 0,-4.43699837,0
@@ -5507,8 +5540,8 @@ PART
 {
 	part = AM.MLP.GeneralHold2_4294013946
 	partName = Part
-	persistentId = 3359929739
-	pos = 4.1438036,3.43128967,-2.38418579E-07
+	persistentId = 185320887
+	pos = 4.14380693,3.43128967,-2.38418579E-07
 	attPos = 7.45056639E-09,0,-0.103829622
 	attPos0 = -1.60187483E-07,3.0399971,-1.83996809
 	rot = 0,1.00000012,0,0
@@ -5701,8 +5734,8 @@ PART
 {
 	part = AM.MLP.GeneralHold2_4294011708
 	partName = Part
-	persistentId = 1968375061
-	pos = 2.19999933,3.43128967,-1.94380546
+	persistentId = 3496518824
+	pos = 2.19999933,3.43128967,-1.94380963
 	attPos = -0.103829861,0,3.87430219E-07
 	attPos0 = -1.83996797,3.0399971,5.21540677E-08
 	rot = 0,0.707106769,0,-0.707106888
@@ -5891,8 +5924,8 @@ PART
 {
 	part = AM.MLP.GeneralHold2_4294011324
 	partName = Part
-	persistentId = 1342963919
-	pos = 0.256194592,3.43128967,4.76837158E-07
+	persistentId = 3583811813
+	pos = 0.256190419,3.43128967,4.76837158E-07
 	attPos = 6.33299351E-08,0,0.103829622
 	attPos0 = 3.20374966E-07,3.0399971,1.83996809
 	rot = 0,0,0,-1.00000012
@@ -6081,8 +6114,8 @@ PART
 {
 	part = AM.MLP.GeneralHold2_4294010940
 	partName = Part
-	persistentId = 2174108486
-	pos = 2.20000029,3.43128967,1.94380522
+	persistentId = 3962501170
+	pos = 2.20000029,3.43128967,1.94380939
 	attPos = 0.103829622,0,0
 	attPos0 = 1.83996797,3.0399971,-2.68220901E-07
 	rot = 0,0.707106829,0,0.707106829
@@ -6271,8 +6304,8 @@ PART
 {
 	part = AM.MLP.ShuttleLauncherFSSBase_4294138614
 	partName = Part
-	persistentId = 3116236580
-	pos = -12.9312067,0.158756256,0.33453083
+	persistentId = 1785453679
+	pos = -12.9312401,0.158756256,0.33453083
 	attPos = 0.334529817,-2.43253708,5.13114643
 	attPos0 = 0,2.20000076,10.0000019
 	rot = 0,0,0,-1.00000012
@@ -6294,9 +6327,10 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = AM.MLP.ShuttleTowerMultiSection_4293970370
+	link = AM.MLP.ShuttleLauncherRSSHinge_4294121378
 	attN = top02,AM.MLP.ShuttleTowerMultiSection_4293970370_0|4|0_0|1|0_0|4|0_0|1|0
 	attN = bottom02,AM.MLP.GeneralLaunchBaseMedium_4294064426_0|0.850000024|0_0|1|0_0|0.850000024|0_0|1|0
-	attN = connect01,Null_0_3.5999999|13|-3.9000001_0|0|-1_3.5999999|13|-3.9000001_0|0|-1
+	attN = connect01,AM.MLP.ShuttleLauncherRSSHinge_4294121378_3.5999999|13|-3.9000001_0|0|-1_3.5999999|13|-3.9000001_0|0|-1
 	EVENTS
 	{
 	}
@@ -6548,8 +6582,8 @@ PART
 {
 	part = AM.MLP.ShuttleTowerMultiSection_4293970370
 	partName = Part
-	persistentId = 1809298011
-	pos = -12.9312086,4.15875626,0.33453083
+	persistentId = 1482700640
+	pos = -12.931242,4.15875626,0.33453083
 	attPos = 0,0,0
 	attPos0 = -1.90734863E-06,4,0
 	rot = 0,0,0,-1.00000012
@@ -6758,8 +6792,8 @@ PART
 {
 	part = AM.MLP.ShuttleTowerMultiSection_4293939644
 	partName = Part
-	persistentId = 1626488570
-	pos = -12.9312105,27.5587559,0.33453083
+	persistentId = 1352858645
+	pos = -12.9312439,27.5587559,0.33453083
 	attPos = 0,0,0
 	attPos0 = -1.90734863E-06,23.3999996,0
 	rot = 0,0,0,-1.00000012
@@ -6968,8 +7002,8 @@ PART
 {
 	part = AM.MLP.ShuttleTowerCrewSection_4293930000
 	partName = Part
-	persistentId = 2728546867
-	pos = -12.9312124,43.1587563,0.33453083
+	persistentId = 4211948240
+	pos = -12.9312458,43.1587563,0.33453083
 	attPos = 0,0,0
 	attPos0 = -1.90734863E-06,15.6000004,0
 	rot = 0,0,0,-1.00000012
@@ -6991,8 +7025,8 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = AM.MLP.ShuttleTowerRodanCrewArm_4293918578
-	link = AM.MLP.ShuttleTowerCrewFloor_4293984880
 	link = AM.MLP.ShuttleTowerTopSection_4293979370
+	link = AM.MLP.ShuttleTowerCrewFloor_4293984880
 	attN = top01,AM.MLP.ShuttleTowerTopSection_4293979370_0|3.9000001|0_0|1|0_0|3.9000001|0_0|1|0
 	attN = top02,Null_0_0|7.80000019|0_0|1|0_0|7.80000019|0_0|1|0
 	attN = floor,AM.MLP.ShuttleTowerCrewFloor_4293984880_0|1.95000005|0_0|1|0_0|1.95000005|0_0|1|0
@@ -7208,8 +7242,8 @@ PART
 {
 	part = AM.MLP.ShuttleTowerRodanCrewArm_4293918578
 	partName = Part
-	persistentId = 4043307486
-	pos = -8.93617725,45.728878,-1.7654953
+	persistentId = 3494681081
+	pos = -8.93619061,45.728878,-1.76550865
 	attPos = -3.81469727E-06,1.93312073,-1.66893005E-06
 	attPos0 = 3.99499989,0.637001038,-2.10000014
 	rot = 0,0,0,-1.00000012
@@ -7397,8 +7431,8 @@ PART
 {
 	part = AM.MLP.GeneralStrongbackTowerFull_4294006430
 	partName = Part
-	persistentId = 2887670196
-	pos = 2.09000731,4.67582321,-2.80238748
+	persistentId = 4214709084
+	pos = 2.09000731,4.67582321,-2.80239248
 	attPos = 7.19762468,0,0.109992698
 	attPos0 = -10.0000029,4.28453064,0
 	rot = 0,0.707106829,0,-0.707106829
@@ -7789,123 +7823,10 @@ PART
 }
 PART
 {
-	part = AM.MLP.ShuttleTowerCrewFloor_4293984880
-	partName = Part
-	persistentId = 2265293530
-	pos = -12.9312153,45.0237465,0.33453083
-	attPos = 9.53675453E-07,-0.0616760254,0
-	attPos0 = -3.81469818E-06,1.92666626,0
-	rot = 0,1.00000012,0,0
-	attRot = 0,0,0,1
-	attRot0 = 0,-1,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 4
-	resPri = 0
-	dstg = 2
-	sidx = -1
-	sqor = -1
-	sepI = 4
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = top,AM.MLP.ShuttleTowerCrewSection_4293930000_0|0.023333|0_0|-1|0_0|0.023333|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = crewSwitch
-		currentSubtype = Rodan Crew Arm
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = textureSwitch
-		currentSubtype = Black & White
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartInfo
-		isEnabled = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleColliderHelper
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = AM.MLP.ShuttleTowerTopSection_4293979370
 	partName = Part
-	persistentId = 3000762866
-	pos = -12.9312162,47.0587578,0.33453083
+	persistentId = 70422191
+	pos = -12.9312496,47.0587578,0.33453083
 	attPos = 0,0,0
 	attPos0 = -3.81469818E-06,3.90000153,0
 	rot = 0,1.00000012,0,0
@@ -8105,8 +8026,8 @@ PART
 {
 	part = AM.MLP.SaturnLightningMastAlt_4293964440
 	partName = Part
-	persistentId = 3373724560
-	pos = -12.9312201,52.1787605,0.33453083
+	persistentId = 2503689188
+	pos = -12.9312534,52.1787605,0.33453083
 	attPos = 0,0,0
 	attPos0 = 3.81469908E-06,5.12000275,9.09495027E-13
 	rot = 0,1.00000012,0,0
@@ -8158,6 +8079,233 @@ PART
 		stagingEnabled = True
 		moduleID = meshSwitch
 		currentSubtype = Shuttle FSS Tower
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = AM.MLP.ShuttleLauncherRSSHinge_4294121378
+	partName = Part
+	persistentId = 1351064164
+	pos = -9.33122349,0.0527496338,-6.91448498
+	attPos = 3.81469727E-06,-9.45099068,-1.43051147E-05
+	attPos0 = 3.59999895,9.34498405,-7.24897909
+	rot = 0,0,0,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 4
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 4
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = connect01,AM.MLP.ShuttleLauncherFSSBase_4294138614_0|3.65501595|3.3489759_0|0|1_0|3.65501595|3.3489759_0|0|1
+	attN = top,Null_0_0|25.9174824|0_0|1|0_0|25.9174824|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Black & White
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = meshSwitch
+		currentSubtype = Off
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = AM.MLP.ShuttleTowerCrewFloor_4293984880
+	partName = Part
+	persistentId = 1636059027
+	pos = -12.9312506,45.0854225,0.33453083
+	attPos = 9.53675453E-07,-0.0616760254,0
+	attPos0 = -4.76837249E-06,1.92666626,0
+	rot = 0,0,0,1.00000012
+	attRot = 0,0,0,0.999999881
+	attRot0 = 0,0,0,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 4
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 4
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = top,AM.MLP.ShuttleTowerCrewSection_4293930000_0|0.023333|0_0|-1|0_0|0.023333|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = crewSwitch
+		currentSubtype = Rodan Crew Arm
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Black & White
 		EVENTS
 		{
 		}
