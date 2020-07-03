@@ -4065,11 +4065,12 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = AM.MLP.LaunchStandCrewWalkwayMercury_4294235188
+	link = AM.MLP.CrewElevatorAtlasUmbilical_4294116428
 	attN = bottom,AM.MLP.AtlasLaunchStand_4293889698_0|0|0_0|1|0_0|0|0_0|1|0
 	attN = walk01,Null_0_-0.699999988|17.2000008|0_-1|0|0_-0.699999988|17.2000008|0_-1|0|0
 	attN = walk02,AM.MLP.LaunchStandCrewWalkwayMercury_4294235188_-0.699999988|15|0_-1|0|0_-0.699999988|15|0_-1|0|0
 	attN = walk03,Null_0_-0.699999988|13|0_-1|0|0_-0.699999988|13|0_-1|0|0
-	attN = umb,Null_0_-1.07500005|11|0.788500011_0|1|0_-1.07500005|11|0.788500011_0|1|0
+	attN = umb,AM.MLP.CrewElevatorAtlasUmbilical_4294116428_-1.07500005|11|0.788500011_0|1|0_-1.07500005|11|0.788500011_0|1|0
 	EVENTS
 	{
 	}
@@ -4182,7 +4183,7 @@ PART
 	part = AM.MLP.LaunchStandCrewWalkwayMercury_4294235188
 	partName = Part
 	persistentId = 2804970792
-	pos = -3.81126118,15.4466925,-2.21181226
+	pos = -3.8112607,15.4466925,-2.21181178
 	attPos = -4.76837158E-06,0.705684662,-3.2782512E-07
 	attPos0 = -1.35499978,15,-1.49011612E-07
 	rot = 0,0.923879564,0,0.382683486
@@ -4302,6 +4303,218 @@ PART
 		animTime = 0
 		animSpeed = 1
 		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartInfo
+		isEnabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleColliderHelper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = AM.MLP.CrewElevatorAtlasUmbilical_4294116428
+	partName = Part
+	persistentId = 471843353
+	pos = -3.4693923,16.4936867,-2.96994638
+	attPos = 0.0143395662,0.252677917,-0.0106822252
+	attPos0 = -1.07500064,16.5,0.788500428
+	rot = 0,-0.947036922,0,-0.321124971
+	attRot = 0,-0.947036922,0,-0.321124971
+	attRot0 = 0,-0.0657345951,0,-0.997837186
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 5
+	resPri = 0
+	dstg = 5
+	sidx = 1
+	sqor = 5
+	sepI = 5
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,AM.MLP.LaunchStandCrewElevatorAtlas_4294237758_0|-5.5|0_0|-1|0_0|-5.5|0_0|-1|0
+	attN = bottom02,Null_0_0|-1000|0_0|1|0_0|-1000|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = textureSwitch
+		currentSubtype = Red
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = umbSwitch
+		currentSubtype = Black
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = LOCKED
+		animSwitch = True
+		animTime = 0
+		animSpeed = 1
+		deployPercent = 100
+		animationIsDisabled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+			}
+		}
+		AXISGROUPS
+		{
+			deployPercent
+			{
+				axisGroup = None
+				axisIncremental = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				axisInverted = None
+				overrideIncremental0 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental1 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental2 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+				overrideIncremental3 = Pitch, Yaw, Roll, TranslateX, TranslateY, TranslateZ, WheelSteer, WheelThrottle, Custom01, Custom02, Custom03, Custom04
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimatedDecoupler
+		isEnabled = True
+		animationComplete = False
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAnimateGeneric
+		isEnabled = True
+		aniState = CLAMPED
+		animSwitch = True
+		animTime = 0.25999999
+		animSpeed = 0
+		deployPercent = 74
 		animationIsDisabled = False
 		stagingEnabled = True
 		EVENTS
