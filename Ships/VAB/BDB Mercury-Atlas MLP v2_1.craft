@@ -2,7 +2,7 @@ ship = BDB Mercury-Atlas MLP v2_1
 version = 1.8.1
 description = 
 type = VAB
-size = 9.43480587,20.7771301,8.11019611
+size = 9.43480587,20.7771301,8.11019707
 steamPublishedFileId = 0
 persistentId = 3171449743
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = bluedog.Mercury.Heatshield_4294108746
 	partName = Part
-	persistentId = 1444024045
+	persistentId = 2148752656
 	pos = -0.00825417042,15.3560028,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,-0.509865761,0
@@ -166,7 +166,7 @@ PART
 {
 	part = bluedog.Mercury.Retropack_4294109964
 	partName = Part
-	persistentId = 3608237645
+	persistentId = 767626060
 	pos = -0.00825417042,15.3689117,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,0.0129098892,0
@@ -356,7 +356,7 @@ PART
 {
 	part = bluedog.Mercury.Interstage_4293718898
 	partName = Part
-	persistentId = 1660979884
+	persistentId = 2636168489
 	pos = -0.00825417042,14.9972458,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,-0.371666908,0
@@ -486,7 +486,7 @@ PART
 {
 	part = bluedog.Atlas.AdapterFuelTank_4293742918
 	partName = Part
-	persistentId = 682567452
+	persistentId = 1433147721
 	pos = -0.00825417042,13.194397,-0.352634847
 	attPos = 0,0,0
 	attPos0 = -0.00825047493,13.0259924,-0.352632523
@@ -640,7 +640,7 @@ PART
 {
 	part = bluedog.Atlas.MediumFuelTank_4293704718
 	partName = Part
-	persistentId = 3433491834
+	persistentId = 1386452620
 	pos = -0.00825417042,10.5673962,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,-2.62700081,0
@@ -777,7 +777,7 @@ PART
 {
 	part = bluedog.Atlas.LongFuelTank_4293703422
 	partName = Part
-	persistentId = 1144405252
+	persistentId = 1579184449
 	pos = -0.00825417042,6.60759544,-0.352634847
 	attPos = 0,0,0
 	attPos0 = -0.00826770067,6.21918583,-0.35261935
@@ -918,7 +918,7 @@ PART
 {
 	part = bluedog.Atlas.SustainerAdapterTank_4293702590
 	partName = Part
-	persistentId = 4190522782
+	persistentId = 4042288525
 	pos = -0.00825417042,4.22959518,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,-2.37800026,0
@@ -1057,7 +1057,7 @@ PART
 {
 	part = bluedog.Atlas.BoosterSkirt_4293700638
 	partName = Part
-	persistentId = 2692494430
+	persistentId = 556864704
 	pos = -0.00825417042,3.18475914,-0.352634847
 	attPos = 1.79977751,0,-0.232839182
 	attPos0 = -1.80805171,5.10783434,-0.119771227
@@ -1221,7 +1221,7 @@ PART
 {
 	part = bluedog.Atlas.LR89_4293701728
 	partName = Part
-	persistentId = 2273521783
+	persistentId = 4294020909
 	pos = -0.00825417042,2.97775841,-1.31663513
 	attPos = 0,0,0
 	attPos0 = 0,-0.207000732,-0.963999987
@@ -1232,11 +1232,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 7
 	resPri = 0
 	dstg = 6
-	sidx = 0
-	sqor = 6
+	sidx = 1
+	sqor = 7
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
@@ -1501,7 +1501,7 @@ PART
 {
 	part = bluedog.Atlas.LR89_4293699168
 	partName = Part
-	persistentId = 2873188853
+	persistentId = 1579363721
 	pos = -0.00825417042,2.97775841,0.611365378
 	attPos = 0,0,0
 	attPos0 = 0,-0.207000732,0.963999987
@@ -1512,11 +1512,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 7
 	resPri = 0
 	dstg = 6
-	sidx = 0
-	sqor = 6
+	sidx = 1
+	sqor = 7
 	sepI = 4
 	attm = 0
 	sameVesselCollision = False
@@ -1773,7 +1773,7 @@ PART
 {
 	part = bluedog.Atlas.LR105_4293701344
 	partName = Part
-	persistentId = 34760738
+	persistentId = 1736266161
 	pos = -0.00825417042,2.74959469,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,-1.4800005,0
@@ -1784,11 +1784,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 6
+	istg = 7
 	resPri = 0
 	dstg = 6
-	sidx = 2
-	sqor = 6
+	sidx = 0
+	sqor = 7
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -2052,7 +2052,7 @@ PART
 {
 	part = bluedog.Atlas.LR101.Radial_4293698332
 	partName = Part
-	persistentId = 3476143469
+	persistentId = 3672461836
 	pos = -0.988960862,5.01443863,-0.352634847
 	attPos = 0,0,0
 	attPos0 = -0.980706334,-1.59315681,0
@@ -2066,7 +2066,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 6
-	sidx = 1
+	sidx = 0
 	sqor = 6
 	sepI = 3
 	attm = 1
@@ -2304,7 +2304,7 @@ PART
 {
 	part = bluedog.Atlas.LR101.Radial_4293695610
 	partName = Part
-	persistentId = 679086972
+	persistentId = 3988430149
 	pos = 0.972452402,5.01443863,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0.980706394,-1.59315681,0
@@ -2318,7 +2318,7 @@ PART
 	istg = 6
 	resPri = 0
 	dstg = 6
-	sidx = 1
+	sidx = 0
 	sqor = 6
 	sepI = 3
 	attm = 1
@@ -2548,7 +2548,7 @@ PART
 {
 	part = bluedog.Mercury.Capsule_4293759200
 	partName = Part
-	persistentId = 1028692969
+	persistentId = 2421036559
 	pos = -0.00825417042,15.8658686,-0.352634847
 	attPos = 0,-3.80741787,0
 	attPos0 = -0.00825417042,19.6732864,-0.352634847
@@ -2953,7 +2953,7 @@ PART
 {
 	part = bluedog.Mercury.ParachuteRCS_4294080598
 	partName = Part
-	persistentId = 3226432753
+	persistentId = 3150850886
 	pos = -0.00825417042,16.5379066,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,0.672039986,0
@@ -3318,7 +3318,7 @@ PART
 {
 	part = bluedog.Mercury.AntennaNose_4294078654
 	partName = Part
-	persistentId = 2738727033
+	persistentId = 2754816066
 	pos = -0.00825417042,16.9663696,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,0.428461075,0
@@ -3512,7 +3512,7 @@ PART
 {
 	part = bluedog.Mercury.LES_4294077620
 	partName = Part
-	persistentId = 124682254
+	persistentId = 2933616929
 	pos = -0.00825417042,17.8645782,-0.352634847
 	attPos = 0,0,0
 	attPos0 = 0,0.898208618,0
@@ -3944,6 +3944,40 @@ PART
 		name = ModuleB9PartSwitch
 		isEnabled = True
 		stagingEnabled = True
+		moduleID = styleSwitch
+		currentSubtype = Tube Frame
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rotSwitch
+		currentSubtype = Not Rotated
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
 		moduleID = textureSwitch
 		currentSubtype = Red
 		EVENTS
@@ -4042,7 +4076,7 @@ PART
 {
 	part = AM.MLP.LaunchStandCrewElevatorAtlas_4294237758
 	partName = Part
-	persistentId = 951422896
+	persistentId = 4207100765
 	pos = -4.76939487,-0.258992195,-3.16994667
 	attPos = -1.40238333,-1.05364513,0.541445494
 	attPos0 = -3.3587575,-0.199999809,-3.35875726
@@ -4182,8 +4216,8 @@ PART
 {
 	part = AM.MLP.LaunchStandCrewWalkwayMercury_4294235188
 	partName = Part
-	persistentId = 2804970792
-	pos = -3.8112607,15.4466925,-2.21181178
+	persistentId = 3335647427
+	pos = -3.81126022,15.4466925,-2.2118113
 	attPos = -4.76837158E-06,0.705684662,-3.2782512E-07
 	attPos0 = -1.35499978,15,-1.49011612E-07
 	rot = 0,0.923879564,0,0.382683486
@@ -4368,10 +4402,10 @@ PART
 	part = AM.MLP.CrewElevatorAtlasUmbilical_4294116428
 	partName = Part
 	persistentId = 471843353
-	pos = -3.4693923,16.4936867,-2.96994638
+	pos = -3.46939182,16.4936867,-2.96994638
 	attPos = 0.0143395662,0.252677917,-0.0106822252
 	attPos0 = -1.07500064,16.5,0.788500428
-	rot = 0,-0.947036922,0,-0.321124971
+	rot = 0,-0.947036922,0,-0.321125001
 	attRot = 0,-0.947036922,0,-0.321124971
 	attRot0 = 0,-0.0657345951,0,-0.997837186
 	mir = 1,1,1

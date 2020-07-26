@@ -2,7 +2,7 @@ ship = BDB Atla-Agena MLP v21
 version = 1.8.1
 description = 
 type = VAB
-size = 10.7198219,20.7790546,2.94278049
+size = 10.7198219,21.0999985,2.94278049
 steamPublishedFileId = 0
 persistentId = 3171449743
 rot = 0,0,0,0
@@ -761,11 +761,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 5
+	istg = 6
 	resPri = 0
 	dstg = 3
-	sidx = 0
-	sqor = 5
+	sidx = 1
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -1041,11 +1041,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 5
+	istg = 6
 	resPri = 0
 	dstg = 3
-	sidx = 0
-	sqor = 5
+	sidx = 1
+	sqor = 6
 	sepI = 3
 	attm = 0
 	sameVesselCollision = False
@@ -1313,11 +1313,11 @@ PART
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 5
+	istg = 6
 	resPri = 0
 	dstg = 3
-	sidx = 2
-	sqor = 5
+	sidx = 0
+	sqor = 6
 	sepI = 2
 	attm = 0
 	sameVesselCollision = False
@@ -1596,7 +1596,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 3
-	sidx = 1
+	sidx = 0
 	sqor = 5
 	sepI = 2
 	attm = 1
@@ -1848,7 +1848,7 @@ PART
 	istg = 5
 	resPri = 0
 	dstg = 3
-	sidx = 1
+	sidx = 0
 	sqor = 5
 	sepI = 2
 	attm = 1
@@ -2220,6 +2220,40 @@ PART
 		name = ModuleB9PartSwitch
 		isEnabled = True
 		stagingEnabled = True
+		moduleID = styleSwitch
+		currentSubtype = Tube Frame
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
+		moduleID = rotSwitch
+		currentSubtype = Not Rotated
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleB9PartSwitch
+		isEnabled = True
+		stagingEnabled = True
 		moduleID = textureSwitch
 		currentSubtype = Red
 		EVENTS
@@ -2239,23 +2273,6 @@ PART
 		stagingEnabled = True
 		moduleID = clampSwitch
 		currentSubtype = Yellow
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleB9PartSwitch
-		isEnabled = True
-		stagingEnabled = True
-		moduleID = rotSwitch
-		currentSubtype = Not Rotated
 		EVENTS
 		{
 		}
@@ -3815,7 +3832,7 @@ PART
 	link = AM.MLP.LaunchStandServiceTower4_4294164938
 	link = AM.MLP.AtlasUmbilicalArmAgena_4294184734
 	attN = bottom,AM.MLP.AtlasLaunchStand_4293565132_0|0|0_0|1|0_0|0|0_0|1|0
-	attN = top01,AM.MLP.LaunchStandServiceTower4_4294164938_0|2.20000005|0_0|-1|0_0|8.19999981|0_0|-1|0
+	attN = top01,AM.MLP.LaunchStandServiceTower4_4294164938_0|2.20000005|0_0|-1|0_0|8.69999981|0_0|-1|0
 	attN = connect01,Null_0_-1.13726699|0.699999988|0_-1|0|0_-1.13726699|0.699999988|0_-1|0|0
 	attN = connect02,Null_0_-1.13726699|1.70000005|0_-1|0|0_-1.13726699|1.70000005|0_-1|0|0
 	attN = connect03,Null_0_-1.13726699|2.70000005|0_-1|0|0_-1.13726699|2.70000005|0_-1|0|0
@@ -3988,8 +4005,8 @@ PART
 	modMass = 0.075000003
 	modSize = 0,0,0
 	link = AM.MLP.LaunchStandServiceTower4_4294159850
-	attN = bottom,AM.MLP.LaunchStandServiceTower4_4294181742_0|0|0_0|1|0_0|0.200000003|0_0|1|0
-	attN = top01,AM.MLP.LaunchStandServiceTower4_4294159850_0|2.20000005|0_0|-1|0_0|8.19999981|0_0|-1|0
+	attN = bottom,AM.MLP.LaunchStandServiceTower4_4294181742_0|0|0_0|1|0_0|0.699999988|0_0|1|0
+	attN = top01,AM.MLP.LaunchStandServiceTower4_4294159850_0|2.20000005|0_0|-1|0_0|8.69999981|0_0|-1|0
 	attN = connect01,Null_0_-1.13726699|0.699999988|0_-1|0|0_-1.13726699|0.699999988|0_-1|0|0
 	attN = connect02,Null_0_-1.13726699|1.70000005|0_-1|0|0_-1.13726699|1.70000005|0_-1|0|0
 	attN = connect03,Null_0_-1.13726699|2.70000005|0_-1|0|0_-1.13726699|2.70000005|0_-1|0|0
@@ -4630,8 +4647,8 @@ PART
 	modCost = 0
 	modMass = 0.0250000004
 	modSize = 0,0,0
-	attN = bottom,AM.MLP.LaunchStandServiceTower4_4294164938_0|0|0_0|1|0_0|0.200000003|0_0|1|0
-	attN = top01,Null_0_0|2.20000005|0_0|-1|0_0|4.19999981|0_0|-1|0
+	attN = bottom,AM.MLP.LaunchStandServiceTower4_4294164938_0|0|0_0|1|0_0|0.699999988|0_0|1|0
+	attN = top01,Null_0_0|2.20000005|0_0|-1|0_0|4.69999981|0_0|-1|0
 	attN = connect01,Null_0_-1.13726699|0.699999988|0_-1|0|0_-1.13726699|0.699999988|0_-1|0|0
 	attN = connect02,Null_0_-1.13726699|1.70000005|0_-1|0|0_-1.13726699|1.70000005|0_-1|0|0
 	attN = connect03,Null_0_-1.13726699|2.70000005|0_-1|0|0_-1.13726699|2.70000005|0_-1|0|0
