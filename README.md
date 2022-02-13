@@ -1,1 +1,1 @@
-# Modular Launch Pads Current Release: v2.2.3
+# Modular Launch Pads Current Release: v2.3.0
