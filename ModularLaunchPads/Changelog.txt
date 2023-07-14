@@ -1,0 +1,405 @@
+Changelog
+
+==================================================================================================
+
+1.0	Initial release
+
+
+1.0.1	Restored missing elevator animation from the angled tower base section
+	Added notes file for using the modular tower with the Bluedog Design Bureau Saturn V and IB.
+
+
+1.1	Added new Russian R-7-style launch stand clamp, an alternate version of the full free-standing Soyuz pad intended for early career mode.
+	New launch stand requires Animated Decouplers, which is included in the .zip
+
+
+1.2	B9 Part Switch texture switching added to the Saturn Tower parts which had red and gray versions; these now only have one part which can be switched between red and gray variants.
+	*** Texture Switching only available with KSP 1.3.1 and 1.4.x versions of B9 Part Switch ***
+
+	All animated Saturn Pad parts (swing arms, hold down arms, tail service masts) can now be staged using Animated Decouplers as well as using the original animation movement.
+
+	*** All the original gray parts are now in a Deprecated folder, they will not appear in any category or tech tree node. At a future update, these parts will be removed.
+
+	The Crew access tower section now has an adjustable floor, done by the deploy limit in the right-click menu. The older alternate walkway part is now deprecated.
+
+	Custom category created for the Modular Launch Pads parts. The tower arms also will not appear in any stock category.
+
+	Some tweaks to the Saturn hold down arms and tail service mast parts and animations.
+
+
+1.2.1	Changed the category for the Saturn tower arms to -1 so they won't actually show up in a stock tab.
+
+
+1.2.2	Added B9PartSwitch v2.3.0 for KSP 1.4.3
+
+	Added Module Manager patch file for FASA to the Patches folder.
+	This adds a size 5 attach node to several meters below the bottom of the first stage tank of the Saturn V, Saturn IB and Titan II, and the main tank for the Atlas and Redstone.  This node is used to attach the pad bases.
+
+
+1.3.0	**Russian Launch Stand**
+	
+	> The Russian Launch Stand no longer uses a separate arm assembly. The clamp arms and one adjustable (by mesh-switching) fuel arm are now built into the stand itself. The fuel arm can be retracted manually. Two additional fuel arms and a separate crew elevator tower can be added as well.
+
+	> Russian Launch Stand's clamp arms can also be turned off, so the big Soyuz Launch Pad's gravity-retract hinges and arms can be used instead.
+
+	> Color can now be switched to the Soyuz Pad's green.
+
+	
+	**Soyuz Launch Pad**
+
+	> The Soyuz Launch Pad base now has switchable hinge-mount configurations, either at 90 or 45 degrees.
+
+	> The clamp arms have adjustable-size clamp pads, done by the deploy limit slider.
+
+	> Extra attach nodes are included on the base for use with the Russian Launch Stand's fuel arms and crew tower, as an interim step until I can make proper ones for the Soyuz Pad.
+
+	> The color for the base's central ring, clamp arms and counterweights can be switched to the gray-drab color of the Russian Stand.
+
+
+	**Saturn Pad**
+
+	> The individual tower swing arms have been eliminated. There are now new switchable Saturn tower swing arms, in four general sizes (for fuel tanks of 1.875m, 2.5m, 3.75m and 5m diameter), each with seven switchable umbilical connector types.  There are also new BDB Saturn V arms with two different size options (for default and rescale sizes).  Eventually the general type arms will vary more from the Saturn V ones they currently use as a base; this is a small step in that direction.
+
+	> The individual flame hole inserts for the base have been eliminated.  They have been replaced by a single square and rectangular switchable insert, both with multiple options.
+
+	> The standard launcher base no longer has attach nodes for accessories like SRB hold-down arms and tail service masts, these are now in the new switchable inserts.
+
+	> The tower base sections' elevators are now off by default, and have switchable maximum heights when turned on. The deploy limit slider can still be used to fine-adjust the stopping height.
+
+	> The hold-down arms no longer can be retracted manually, retraction is only by staging via Animated Decouplers
+
+	> What was the Type 1 and Type 2 hold down arms have been revised and renamed the Saturn V and Saturn IB Type B hold-down arm. The other hold-down arms have been renamed General Type [x].
+
+	> Two new hold arms have been added, a bottom-mount type and another one designed for the Saturn IB, the Type A.
+
+	> New Saturn Milkstool with an integrated insert, i.e. switchable node and hold-down supports.
+
+	> NOTE: Disable staging for any part (like swing arms) that is manually retracted, or move its staging icon into a stage above that of the launcher base, otherwise they will reset if staged.
+
+
+
+	**General**
+
+	> ALL OLD PARTS ARE NO LONGER LOADED BY DEFAULT.  They are in a separate folder called "Old_Parts" that is outside of the Gamedata folder in the .zip file. If they are needed to prevent craft and save files from breaking, copy the "Parts" foder from "Old_Parts" into the ModularLaunchPads folder, and copy the contents of the "3D_Assets" folder from "Old_Parts" into the "3D_Assets" folder in ModularLaunchPads.
+	
+	> Old parts won't appear in any category or the tech tree, they are provided solely to prevent craft and save files breaking so the old parts can be replaced. This is the last time old parts will be included.
+
+	> Saturn tower swing arms are now back in the Structural category.
+
+	> Added v2.3.0 of B9PartSwitch for KSP v1.4.3
+
+	> Added MM patch file for Tundra Exploration, it adds a size 5 node below the bottom of the three first stage tanks for attaching a launch pad.
+
+	> Revised the custom category, old parts were removed, new ones added.
+	
+
+1.3.5	> Created new custom tech tree nodes for the Saturn and Soyuz pads. They are located to the left of the start node and are all independent of each other.
+
+	> Revised all Saturn pad parts that use Animated Decouplers by adding a size 0 attach node that is setup to decouple.  Nothing can be attached to this node.
+
+
+1.3.6   > Added a 6x60 hold-down support configuration to the square insert for the Saturn mobile launcher base.
+
+1.3.7   > Made the dummy nodes unusable for parts using Animated Decouplers by moving them to -1000 on the Y-axis.
+	> Changed the order of the B9PS switchers for the Saturn tower arms so the color one is now last.
+
+1.3.8   > Removed "layer = 0" line from the Saturn pad parts that have both ModuleAnimateGeneric and ModuleAnimated Decoupler.  This was making these parts reset after the animation finished when staged.
+
+
+2.0.0   > Complete remake and expansion of the old v1 Saturn and Soyuz base parts.
+ 	  All parts are completely new have new names.
+
+ 	> Addition of Shuttle Launch Platform and accessories.
+
+	> Addition of General Launch Bases and accessories.
+
+	> Addition of two Launch Stands (Small and Large) and early-career accessories, plus a Small Static Test Stand.
+
+	> Extensive use of mesh switching means fewer parts are loaded.
+
+	> All launch bases are now launch clamps, none are free-standing.
+
+	> Free-standing versions of the Saturn and Shuttle launch bases are available as separate extras, are not in 		  GameData/ModularLaunchPads.
+
+	> All launch bases now have a fuel generator, outputting LFO, Mono and LH2 (with Community Resource Pack installed).
+
+	> Added Community Category Kit support, complete with a custom icon.
+
+	> Removal of old v1 Russian Launch Stand, it's clamp features have been integrated into the new Soyuz Launch Base.
+
+2.0.1	> Added separate patch for Bluedog Design Bureau Soilids.
+
+	> Revised reDIRECT patch to add a node to the STS ET for SOCK.
+
+	> Updated patches TantaresLV, Raidernick and Tundra Exploration.
+
+	> Added craft files for SOCK shuttle and TantaresLV 1.875m TLV.
+
+	> Added missing CCK tag to Small Service Tower Umbilical.
+
+
+2.0.2	> Removed alternate height variant from the Shuttle FSS Tower Base, as it was causing the whole shuttle platform to sit above the pad static in KSP 1.7.x
+
+2.0.3	> Revised General Crew Arm to only have one retract animation, the direction is now changed by a B9PartSwitch changer. This fixes the arm appearing in the half-retracted position after loading or launching from the VAB.
+
+	> Added more craft files for Bluedog Design Bureau, Tantares and Tundra Exploration, plus a stock craft with the Large Launch Stand.
+
+2.0.4	> Fixed missing FX for the General ROFI; forgot to update the paths to the FX for the v2 release.
+
+	> Added some more BDB craft files and a subassembly for the Medium General Launch Base configured for a Delta-IV-Heavy-type rocket, with extra swing arms.
+
+2.0.5	> KSP 1.8: The current versions of B9PartSwitch, Animated Decouplers and Community Category Kit work in KSP 1.8 as is.
+	  When a 1.8 version of B9PS is released, it will be included in all future updates of Modular Launch Pads.
+
+	> Updated B9PartSwitch to v2.11.0; this one adds the ability to prevent B9PS modules from being moved to the end of the Part Action Window. It also fixes a bug with texture-switching on copied parts.
+
+	> Added lines to parts with B9PS modules to prevent them from being moved to end of Part Action Window.
+
+	> Removed alternate support columns from the Saturn and Shuttle clamp bases. They ended up outside the the base when the base was rotated.
+
+	> Adjusted General ROFI and Shuttle TSM sparker's burn time to a maximum of 15 seconds with full fuel amount.
+
+	> Renamed the alternate Saturn Lightning Mast to Shuttle Tower Lightning Mast.
+
+	> Added a Module Manager patch to hide the Modular Launch Pads parts from the stock Structural tab into the Extras folder.
+
+	> Added a basic Realism Overhaul compatibility patch into the Extras folder. I did not make this, I found it on the RO Discord server. It's just a simple rescale, TweakScale is not needed, and may not be complete or fully working.
+
+	> Removed KSP 1.3.1 versions of the dependencies, as almost all RO players use KSP 1.6.1 now.
+
+2.0.6	> Added a drag cube definition (the one from the stock Mk1 Fuselage) to the parts with a deploy-limit adjustable animation to prevent the "Generating procedural drag cube" message spam in the console. Moving the deploy limit slider changes the shape of the part, and without a predefined drag cube, KSP will make, then remake again and again, a new procedural one.
+
+2.0.7	> Modifed the sound effect of the General ROFI and Shuttle Tail Service Mast sparker by a large amount to make it much quieter.
+
+	> Changed .cfg and .mu names for the General Hold Downs and General ROFI
+
+	> Updated the stock custom category and custom tech tree node .cfgs to those of v2.1
+
+	> Now includes separate versions of B9PartSwitch for KSP 1.8.1 and KSP 1.7.3. Folders are named for which KSP version they are for.
+
+2.0.8	> Removed the integrated clamp arms, fuel arms and gantry from the Soyuz Launch Base. Attach them separately now; clamp arms surface attach, the fuel arms attach to the auxiliary nodes on the ring, and the gantry attaches to the auxiliary node in the center, below the rocket attach node.
+
+	> Added transfer airlocks to the gantry's crew elevator platforms, to allow crew boarding of a spacecraft inside a fairing via the crew transfer function.
+
+	> Updated B9PartSwitch to v2.13.0 for KSP 1.8.1, works in KSP 1.9.x. It is now the default B9PS in the download's GameData Folder.
+	
+	> B9PartSwitch for KSP 1.7.3 is available as a separate .zip file in the root folder of the download.
+
+	> Updated Spacedock compatibility to KSP v1.9.
+
+
+2.1.0
+
+	NEW	NEW	NEW	NEW	NEW
+
+*	All parts are now hidden from the stock Structural category. Use the custom CCK category tab or the stock custom category (which has subcategories) to find the parts. Delete the Hide_Parts.cfg in the Category folder if you want the parts back in the Structural tab.
+
+*	The former multi-size merged parts have been split off into separate parts, but the older internal part name is still used for one the new parts. Existing v2.0 craft files will still load, but most likely won't look the same, and will need to be rebuilt.
+
+*	NEW:	Historical launch stands for the Bluedog Design Bureau Vanguard, Redstone/Jupiter/Juno, Thor/Delta, Atlas and Titan II rockets, but can be used with other rockets of the same diameters.
+*	NEW:	Historical service towers for the new historical launch stands. The Titan II tower comes in single-piece and modular section versions.
+*	NEW:	Jupiter-style Petal Cover for the Redstone Launch Stand.
+*	NEW:	Mercury-Atlas Crew Elevator, with separate Mercury-Atlas Crew Walkway. Walkway has switchable mounts for use with the smaller crew elevators.
+*	NEW:	Atlas Mini Modular Tower, which serves as the historical Atlas tower. Has switchable styles for Agena and Centaur upper stages.
+*	NEW:	Atlas-Agena and Atlas-Centaur retracting umbilical arms. The Centaur arms are also available as separate parts.
+*	NEW:	Launch Plates, ultra-low profile flat clamp bases for the minimalist style. Three sizes of round and square types.
+*	NEW:	Falcon 9-style Launch Plate, and interim N1 and Energia Launch Plates.
+*	NEW:	Mini Milkstool Launch Stands. These are small launch-clamp versions of the Saturn Milkstool, with three sizes, each with two height variants.
+*	NEW:	Separate non-launch clamp versions of the Mini Milkstools, with built-in decouplers for use with Launch Plates and Launch Bases.
+*	NEW:	Launch Rails, add-on part for Launch Stands, Plates and Bases. Four sizes with built-in decoupler, can be rotated with Animated Attachment or B9PartSwitch.
+*	NEW:	Extra-Large General Service Tower, styled after the Titan III/IV fixed service tower.
+*	NEW:	Titan III/IV Mast, the angled structure which was located on the Titan III/IV Mobile Launcher.
+*	NEW:	Small General Crew Elevator, comprised of separate modular sections (base, multi-height core, top). Uses the Large General Arm, Small General Crew Arm or Mercury-Atlas Crew Walkway with appropriate mount types.
+*	NEW:	Mini General Crew Elevator, comprised of separate 2-height core and multi-height tower sections. Uses the Small General Crew Arm or Mercury-Atlas Crew Walkway with appropriate mount types.
+*	NEW:	Small General Crew Arm, with separate versions for the Small and Mini General Crew Elevators.
+*	NEW:	Droop-style general umbilicals. Four sizes of simple bent-style umbilical hoses for a bit more realism.
+*	NEW:	Two more sizes of the basic beam-style swing arms.
+*	NEW:	Mini size General Fallback Tower, sized for Electron/Falcon 1-style rockets.
+*	NEW:	Rodan Crew Access Arm, sized for the Tundra Exploration Rodan (SpaceX Crew Dragon) capsule, and used with the Shuttle FSS Tower.
+*	NEW:	General Mounting Platform, an alternate version of the Mini Flat Launch Base, with solid deck, toggleable railings and side attach nodes. Use for supporting ground structures.
+
+
+	REVISED		REVISED		REVISED		REVISED
+
+*	REVISED:	General Launch Stand has been split into separate Round and Rectangle versions, and both completely remade. Redstone-style service pole removed from Round version (now in the Redstone Launch Stand), but still available as a separate part.
+*	REVISED:	Flat and General Launch Bases have been split into separate sizes, with added detail and hole options, and new ladders. Ladders and railings have separate switchable colors.
+*	REVISED:	General Service Towers have been split into separate size versions, and each split into separate modular section parts: stackable core, multi-height section (except for the Extra-Large Tower) and top section with optional mast(s).
+*	REVISED:	The former General Crew Elevator and Crew Arm have been renamed the Large General Crew Elevator and Crew Arm. Elevator has been split into modular section parts, with two versions of the base. Large Crew Arm has separate Large and Small Elevator mount types, and more length variants.
+*	REVISED:	General Swing Arms have been split into separate size versions, and all completely remade.
+*	REVISED:	General Straight Umbilicals remade.
+*	REVISED:	Atlas V Service Mast and Delta II Service Tower, with additional details and/or changed styling. Separate modular section versions now available.
+*	REVISED:	Former Small Test Stand had been split into three separate versions: Cradle type, Tower Type and Engine Type.
+*	REVISED:	Flat Vertical Bolt General Hold-Down now has a tall bolt variant.
+
+*	REVISED:	Saturn and Shuttle Towers have been split into separate modular sections, consisting of the base, multi-heght core, 2-height crew access and top.
+*	REVISED:	Shuttle FSS tower sections have an alternate SpaceX-style black&white color scheme, and optional mesh side panels added.
+*	REVISED:	Shuttle RSS Hinge has been split off into a separate part, with the detail being toggleable, and black color option added. Now the current state of the FSS on LC-39A can be recreated without having to add the full RSS.
+*	REVISED:	Saturn Hammerhead Crane is now an animated part instead of free-rotating.  The original-style lightning mast is included, also still available separately.
+*	REVISED:	The tall white cylinder alternate Saturn Lightning Mast is now the Shuttle Lightning Mast with different mount options.
+*	REVISED:	Saturn and Shuttle Launch Bases can now be properly rotated using B9PartSwitch--no more misaligned support legs!
+*	REVISED:	Mass values for the Saturn and Shuttle tower sections have been reduced to tiny amounts.
+*	REVISED:	The Freestanding versions of the Saturn and Shuttle Launch Bases (in the Extras folder of the download) now have switchable masses: 1 ton for transport, 2000 tons for on the launch pad.
+
+*	REVISED:	Soyuz Launch Base parts now have a third blue color option, based on the ESA Soyuz pad colors.
+*	REVISED:	Soyuz Large Fuel Arm, Small Fuel Arm and Gantry. More height options, straight-sided extension for the Small Arm and switchable-adjustable platform stack for the Gantry.
+
+
+	GENERAL		GENERAL		GENERAL
+
+*	Extensive use of B9PartSwitch transform move and rotate, node move and UI Group features for smaller part sizes and easier to understand Part Action Windows.
+*	All launch clamp bases and stands can now have the staging disabled when a milkstool or launch rail or other part is attached to them.
+*	Various part title and description changes; part cost is now 1 for everything.
+*	Removed simple rescale patch from Extras. Realism Overhaul now directly supports Modular Launch Pads, ask the RO devs for additional support/help if needed, it is their responsibility.
+*	Remade all craft files for v2.1. Subassemblies removed, there are now four Example MLP craft files (with a stock rocket for demo purposes), along with bare versions of the Saturn and Shuttle launchers.
+
+
+2.1.1
+
+*	Added missing Launch Plates tech tree node for the Unkerballed Start tree.
+*	Fixed typo in Mounting Platform description.
+
+2.1.2
+
+*	Greatly increased the evaDistance for all crew elevators so Kerbals on EVA can send the elevator car down as well as up.
+*	Added another MLP Example Craft File, #5
+
+2.1.3
+
+*	Added 20m extensions to the foot pads of the General and Flat Launch Bases so they will reach the ground when rescaled to a size that extends past the lanch pad static.
+*	Changed the tech tree nodes for some of the launch stands and umbilicals. All the historic launch stands and their accessories are now in the custom Launch Stands node. The General Round and Rectangle stands, the beam swing arms and all umbilicals are now in the start node.
+*	Removed Animated Attachment from the download and GitHub as it can cause major problems with other parts if it is installed. It is not needed for Modular Launch Pads, was only offered as aan option for the Launch Rails, so if you still want it, you have to get it yourself.
+*	The Hide_Parts patch now only runs if CommunityCategoryKit is intstalled.
+
+2.1.4
+
+*	Reset the General Medium Modular Tower Section's rescaleFactor back to 1, after forgetting about having changed it for a B9PS test.
+
+2.1.5
+
+*	All crew elevators have been greatly slowed down so they are now useable on fast computers. This now results in a "slow ride" to the access arm.
+*	Removed the max height preset options from the Saturn and Shuttle crew elevators. Saturn elevators are now fixed at 80m max height, the Shuttle elevators at 45m amx height. Done so a single elevator speed could be implemented and to reduce needless complexity.
+*	Soyuz Large Fuel Arm umbilicals can now be separately adjusted in horizontal length.
+*`	Soyuz Large Fuel Arm lower umbilical can also be separately adjusted in vertical position.
+*	Added red color option to all of the Shuttle FSS tower parts, arms and the RSS, for that quasi-Vandenberg look.
+*	Removed base collider from the Flat Vert Bolt General Hold-Down, leaving just the center collider, to prevent collider clipping issues.
+*	Added missing Energia Launch Plate .cfg file, so it now shows up in the part list. Ok, I somehow forgot to make one the first time.
+
+2.1.6
+
+*	Slowed down the General Crew Elevators, Saturn Tower elevators and Shuttle Tower elevators even more to help alleviate the Kerbals phasing through the floor of the elevator car that happens with the new anchoring system introduced into KSP.
+*	Revised the Modify_Animated_Attachment.cfg to add the Animated Attachment module to the crew elevators to allow the use of command chairs in the elevator car.
+*	Retitled the Extra Large General Modular Service Tower to the Titan III Modular Service Tower, and moved it to the Special Service Towers subcategory.
+
+2.2.0
+
+*	NEW: Animated Decouplers has been replaced by Staged Animation, graciously provided by NathanKell Staged Animation, It has the same animation staging function and decoupler icon, but no actual decoupler function. It also works with Mechjeb's auto-staging feature.
+*	NEW: All uses of the stock ModuleAnimateGeneric have been replaced with ModuleAnimateGenericExtra, contained within the StageAnimation .dll and also graciously provided by NathanKell. This version allows for custom titles of the deploy limit sliders used by many of the parts, and also can fully disable the animation toggle/start/end buttons. The PAWs for those parts are now far more understandable as a result.
+*	NEW: Titan III Launch Stand added to the historic launch stands group. It is designed to work with the existing Titan III Auxiliary Mast and Service Tower parts. Can be configured for both the Titan III and Titan IV, and has integrated hold-down bolts that are fully adjustable in position.
+*	NEW: General Fallback Umbilical Tower added to the General Service Towers group. It is a generalized, square-truss version of the Thor/Delta Fallback Tower, with many more height variants.
+*	NEW: Extra Large General Crew Elevator added to the General Crew Elevators group. It replaces the old 130m height version of the Large Crew Elevator Base, and is compatible with the Large Crew Elevator Section and Side Extension.
+*	NEW: Saturn Milkstool Launch Stand has been added. It is a standalone launch-clamp version of the Saturn Milkstool part, with a short height variant along with the default full-height version.
+
+*	REVISED: General Droop Umbilicals have been remade, with an additional size added. An adjustable-length mount extension tube has also been added to provide better custom-fitting to a rocket stage.
+*	REVISED: Large Crew Elevator has been revised with new General and Saturn truss styles; the General style is the same as that of the new Extra Large Elevator. The Elevator Tower Section also now has more switchable detail optons to allow it to be used with the Extra Large Elevator.
+*	REVISED: Color of the side panels for the Large and Extra Large Crew Elevator towers can now be separately switched.
+*	REVISED: More attach nodes for umbilicals and swing arms, including new side mount rails, have been added to the Large General Crew Elevator Section part.
+*	REVISED: Large Crew Arm now has an option for a bare hatch interface, with all three sides open and no angled hatch brace.
+*	REVISED: An additional height variant has been added to the Large, Medium and Small General Modular Service Towers. More attach nodes for umbilicals and swing arms have been added as well.
+*	REVISED: Integrated hold-down support pads have been added back into the Large, Medium and Small General Launch Bases. These have three width options, and are adjustable in position with newly custom-titled deploy limit sliders.
+*	REVISED: The Delta II single-piece service tower now has an adjustable-height structural detail group via deploy limit slider, so it can be positioned where desired.
+*	REVISED: The Atlas Launch Stand's center clamps are now toggleable like the side umbilicals, for use with the Atlas IIAS (the one with the Castor SRBs).
+*	REVISED: The Redstone Launch Stand's integrated umbilical pole can now be switched among 8 positions on the ring, and it's horizontal position is now adjusted with a deploy limit slider.
+*	REVISED: The Mercury-Redstone Crew Elevator now has a new long mount rail option, and the tower's rollback position can now be adjusted with a deploy limit slider.
+*	REVISED: The Titan II GLV Service Tower droop-style umbilical arms have been revised to match the style of the revised General one, and also include the adjustable extension tube. The Gemini version also has been changed to match.
+*	REVISED: The Saturn Launch Stand has been retitled the Saturn IB Launch Stand to make clear what it was designed after.
+*	REVISED: The old Saturn V combo swing arm part has been separated into individual arm parts, one for each Saturn V arm (8 total) and one for the Saturn IB's S-IB first stage. Internal revisions have made each arm much smaller in size than those in the old integrated part, and only one animation is now run when retracted.
+*	REVISED: The old Saturn Tower General Swing arm has been converted into a telescoping adjustable arm like that of the General Swing Arms, greatly reducing the complexity and .mu size as a result. The pipes can also now be independently switched among 15 variants.
+*	REVISED: The Saturn and Shuttle Launch Bases now have the attach nodes for towers and accessories move properly when the base is rotated with the B9PS switcher. The things attached to those nodes won't rotate, but they will be in the right position.
+*	REVISED: The Saturn Tower Hammerhead Crane now has an 180° rotation animation and a deploy limit slider to adjust the rotation amount.
+*	REVISED: The two crew access arms for the Shuttle FSS Tower have been retitled to "Shuttle Tower Crew Access Arm: Orbiter" and "Shuttle Tower Crew Access Arm: Rodan" to position them later in the part list.
+*	REVISED: Title changes for the Saturn Tower sections, Shuttle Tower sections and Shuttle Tower arms to better position them in the part list.
+*	REVISED: Nunmerous edits to to the part .cfg files to add/modify B9PS UI Groups and switchers, and to use StagedAnimation and ModuleAnimateGenericExtra where needed.
+*	REVISED: Edits to the Saturn and Shuttle custom subcategory names to "Saturn V Mobile Launcher" and "Space Shuttle Launch Platform".
+
+2.2.1
+
+*	Removed the ring that Modular Launch Pads added to the Bluedog Design Bureau Sarnus/Saturn 1 Engine Mount to make it the Saturn IB version, which was fully circular without the cutouts and recessed sections. The new BDB Saturn I engine mount now has a Saturn IB variant, making the MLP-added ring unnecessary.
+	The lines that added the ring have only been commented out in the BluedogDB_MLP_Patches.cfg located in ModularLaunchPads/Compatibility_Patches folder, so if desired the '//' in front of the MODEL{} node lines can be deleted to restore the ring.
+*	Updated the CryoTanks patch to include the new MM patch provided by KSP Forum member UnanimousCoward. Apparently CryoTanks removed the LiquidFuel, Oxidizer and LqdHydrogen resources from the Static Test Stand - Engine Type and added two erroneous B9PS fuel tanks instead. This has now been fixed.
+
+2.2.2
+
+*	Updated Bluedog Design Bureau patches to give larger extra attach nodes to some of the tanks and engines to prevent catastrophic wobbling upon spawn.
+*	Restored missing CCK tag to the Saturn Hammerhead Crane; it's now visible in the Modular Launch Pads CCK category.
+
+2.2.3
+
+*	Fixed Snall General Swing Arm UI Groups by renaming two missed instances of the old ModuleAnimateGeneric to the new ModuleAnimateGenericExta (which was throwing an exception in the VAB).
+
+2.3.0
+
+*	Added Delta IV Launch Stand, Service Tower and three Delta IV-specific swing arms.
+*	Added attach nodes for rockets to all four launch rails and updated Module Decouple for the rails accordingly. Rockets still can surface attach to the rails, and made the rails surface-attachable too.
+*	Modified the Saturn Hammerhead Crane to have a switch between the full crane and the remnant core, which appeared for some shuttle launches.
+*	Added v2.3 craft file for the Bluedog Design Bureau Delta IV Heavy using the new Delta IV parts.
+*	Updated BDB MLP patches, adding extra attach nodes for the Delta IV lower core tank and the Saturn LRB Engine Mount.
+*	Updated MLP Custom Category.
+
+2.3.1
+
+*	Minor .cfg fixes.
+
+2.3.2
+
+*	Added new craft files for the new BDB v1.10 Saturn IB and Saturn V.
+*	Renamed old BDB MLP Saturn IB and Saturn V craft files to "BDB Old Saturn xxx".
+
+2.3.3
+
+*	Added black extension to the base of the Thor-Able Fallback Tower. The tower still attaches at the original node on the base; the extension has no collider and is meant to fill in any gap if KSP puts the tower slightly above the launch pad surface.
+*	Added black extension to the base of the Saturn Tail Service Mast. The TSM still attaches at the bottom of the main white structure; the extension has no collider and allows the mast to be raised up a bit to align with the umbilical plates on the new BDB Saturn V engine mount.
+*	Updated BDB New Saturn V MLP v2.3 craft file with properly aligned Tail Service Masts.
+
+2.4.0
+
+*	Added additional height variant, front wall options and umbilical attach nodes to the Mini General Crew Elevator Core.
+*	Added new Mini Crew Walkway, a stripped-down short version of the Mercury-Atlas Crew Walkway, designed for the Mini General Crew Elevator.
+*	Retitled the crew elevators and crew arms to a standard scheme so they will be grouped together in the CCK category in Simple Mode.
+*	Retitled the General Service Tower parts to add "General" at the front so they will be grouped together in the CCK category in Simple Mode. 
+
+2.5.0
+
+*	Added crew capacity to all Crew Elevators and hatches (Airlocks) to the elevator cars, so Kerbals can still "ride" the elevators up and avoid the anchoring system shenanigans which plague Kerbals on EVA. The hatches have no mesh, but the colliders are big enough for easy clicking.
+*	Elevator car floor should be at least a few cm above any crew arm walkway or tower floor to avoid the hatches being blocked.
+*	Greatly increased the speed of all crew elevator cars, as the slow speeds were no longer necessary with the new hatches. Apologies to anyone wanting to use the elevators normally in KSP versions after 1.8.1.
+
+2.5.1
+
+*	Added more height options to the Redstone Launch Stand Umbilical Pole, both the integrated and separate versions.
+*	Rebuilt the pole to remove the single-piece pole meshes and use 1.25m sections that are moved into place with B9PS.
+
+2.5.2
+
+*	Made the individual umbilicals of the Thor Fallback Service Tower able to be switched on or off.
+
+2.5.3
+
+*	Added patch, courtesy of KSP Forum member Zelda, to remove MOARdv's Avionics Systems (MAS) flight computer from the MLP crew arms and elevators that have crew capacity and the stock generic3 IVA. MAS causes the screen to go black when these parts are present.
+
+2.6.0
+
+*	New General Launch Bases in six sizes--Micro, Mini, Small, Medium, Large and Extra Large--with different styling and fewer exhaust hole options per base.
+*	New Ariane V Flat Mast and Scissor Umbilical.
+*	New General SRB Hold-Down part with adjustable bolts.
+*	New N1 basic modular stackable tower part and separate platform part.
+*	New Aerobee Launch Stand-Tower with optional integrated cover
+*	New Modular Multi Tower part in three different sizes, each main size has multiple sub-sizes. New separate Multi Top part for all the sizes.
+*	New Micro General Strongback Tower featuring partial Electron styling, fits on the mew Micro Launch Base.
+*	Minimized the size of the launch clamp meshes in the launch bases, stands and plates that don't rely on them for the visual structure; added switch to turn them off, which does not affect the actual clamp function.
+*	Retitled a number of the General Parts to follow a more coherent and consistent naming scheme.
+*	Added craft files for the KNES Ariane V, TantaresLV N1, Chrayol PSLV, DodoLabs Electron and Taerobee Aerobee rockets.
+*	The three old General Launch Bases have been deprecated in preparation for version 3, they will not make the move to v3.0.
+
+2.6.1
+
+*	Removed some colliders and reduced the size of some other colliders from the General Hold Downs to prevent clipping issues with some engines.
