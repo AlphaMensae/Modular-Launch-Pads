@@ -1,4 +1,4 @@
-# Modular Launch Pads Current Release: v2.6.0
+# Modular Launch Pads Current Release: v2.6.2
 
 *	New General Launch Bases in six sizes--Micro, Mini, Small, Medium, Large and Extra Large--with different styling and fewer exhaust hole options per base.
 *	New Ariane V Flat Mast and Scissor Umbilical.
